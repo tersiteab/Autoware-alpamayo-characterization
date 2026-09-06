@@ -1,0 +1,4 @@
+label,run,n_inf,model_duration_ms_mean,model_duration_ms_std,reason_tokens_mean,num_traj_samples,camera_count,nav_text,gpu_power_w_mean,gpu_energy_j_mean,gpu_net_energy_j_mean,total_tflop_mean,ade_m_mean,ade_m_median,fde_m_mean
+cam1,results/camera_ablation/cam1,88,1468.9348,422.483,8.6023,1,1,,23.7918,34.538,24.7091,63.9573,0.3329,0.1354,0.9046
+cam2,results/camera_ablation/cam2,79,1851.9705,647.1821,8.0506,1,2,,30.3477,54.6019,45.8546,63.948,0.1506,0.0192,0.4285
+cam4,results/camera_ablation/cam4,53,2951.9162,319.2541,7.8302,1,4,,34.4613,101.013,90.5519,63.9441,0.0921,0.0254,0.1523

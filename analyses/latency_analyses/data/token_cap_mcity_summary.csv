@@ -1,0 +1,4 @@
+label,run,n_inf,model_duration_ms_mean,model_duration_ms_std,reason_tokens_mean,num_traj_samples,camera_count,nav_text,gpu_power_w_mean,gpu_energy_j_mean,gpu_net_energy_j_mean,total_tflop_mean,ade_m_mean,ade_m_median,fde_m_mean
+mcity_tok16,results/token_cap_mcity/tok16,138,2286.8116,208.0249,7.5435,1,1,,18.5497,42.3013,29.695,64.0077,,,
+mcity_tok32,results/token_cap_mcity/tok32,136,2485.5439,694.8293,10.3309,1,1,,19.0903,46.7659,32.0853,64.0226,,,
+mcity_tok64,results/token_cap_mcity/tok64,176,2148.234,806.3989,13.4034,1,1,,22.0047,46.0707,32.5364,64.053,,,

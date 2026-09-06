@@ -1,0 +1,5 @@
+stage,gpu_time_s,share_pct,per_inference,top_kernels,character
+reason_decode,55.16,71.4,~20 tokens,"nvjet_tst_128x8_64x12_2x1_v_bz_TNT=23217ms; nvjet_tst_512x8_64x3_2x1_v_bz_splitK_TNT=14750ms; nvjet_tst_128x8_64x12_2x1_v_bz_splitK_TNT=7881ms; nvjet_tst_192x8_64x8_2x1_v_bz_splitK_TNT=1847ms; Cat(KV)=438ms","small-tile M=1 nvjet GEMMs (decoder QKV/MLP per token) - memory-bound weight streams"
+prefill,9.91,12.8,1,"nvjet_tst_384x168_64x3_2x1_v_bz_TNT=4080ms; nvjet_tst_256x168_64x3_2x1_v_bz_TNT=3006ms; elementwise=394ms; Cat(KV)=304ms; elementwise=230ms","few large full-sequence GEMMs + full flash attention - compute-dense"
+traj_diffusion_expert,7.86,10.2,5 steps,"nvjet_tst_448x64_64x3_2x1_2cta_v_bz_TNT=2608ms; nvjet_tst_512x64_64x3_2x1_2cta_v_bz_splitK_TNT=1243ms; nvjet_tst_112x64_64x9_2x1_v_bz_TNN=469ms; Cat(KV)=317ms; fmha_cutlass=282ms","expert 2-CTA cluster GEMMs + mem-efficient attention"
+vision_encode,4.34,5.6,1,"elementwise=386ms; Cat(KV)=327ms; flash_fwd=325ms; nvjet_tst_320x192_64x4_2x1_2cta_v_bz_bias_TNT=280ms; nvjet_tst_192x128_64x6_2x1_2cta_v_bz_bias_TNT=248ms","ViT: flash attention + biased GEMMs + heavy pointwise"

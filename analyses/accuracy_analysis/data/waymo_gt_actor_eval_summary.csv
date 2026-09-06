@@ -1,0 +1,8 @@
+metric,value
+predictions,25
+predictions_with_collision,4
+collision_events_total,90
+near_miss_events_total,1165
+min_clearance_m,0.000000
+median_clearance_m,0.690053
+source_note,Summary of copied waymo_gt_actor_eval.csv; this file may include mixed/historical rows and should not be cited as the clean baseline without checking run provenance.
