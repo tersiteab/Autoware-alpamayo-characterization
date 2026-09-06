@@ -1,0 +1,62 @@
+[INFO] [1785337251.193690089] [alpamayo_node]: Publishing Autoware trajectories on /alpamayo/predicted_trajectory
+[INFO] [1785337251.194625673] [alpamayo_node]: Publishing reasoning traces on /alpamayo/reasoning
+[INFO] [1785337251.196556674] [alpamayo_node]: Publishing reasoning traces (stamped) on /alpamayo/reasoning_stamped
+[INFO] [1785337251.197179720] [alpamayo_node]: Publishing navigation text on /alpamayo/nav_text
+[INFO] [1785337251.201662007] [alpamayo_node]: Publishing trajectory markers on /alpamayo/predicted_trajectory_markers
+[INFO] [1785337251.203328305] [alpamayo_node]: Subscribed to camera topic: /waymo/camera/side_left/image_raw/compressed
+[INFO] [1785337251.204117230] [alpamayo_node]: Subscribed to camera topic: /waymo/camera/front/image_raw/compressed
+[INFO] [1785337251.204875499] [alpamayo_node]: Subscribed to camera topic: /waymo/camera/front_right/image_raw/compressed
+[INFO] [1785337251.205601314] [alpamayo_node]: Subscribed to camera topic: /waymo/camera/side_right/image_raw/compressed
+[INFO] [1785337251.208306704] [alpamayo_node]: Subscribed to odometry topic: /odom
+[INFO] [1785337251.213180640] [alpamayo_node]: Subscribed to route topic: /planning/mission_planning/route
+[INFO] [1785337251.213733936] [alpamayo_node]: Loading Alpamayo model nvidia/Alpamayo-1.5-10B on device=cuda dtype=torch.bfloat16
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:00<00:00, 18.85it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:00<00:00, 17.06it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 20.48it/s]
+[0;93m2026-07-29 11:01:13.162729472 [W:onnxruntime:Default, device_discovery.cc:211 DiscoverDevicesForPlatform] GPU device discovery failed: device_discovery.cc:91 ReadFileContents Failed to open file: "/sys/class/drm/card3/device/vendor"[m
+[0;93m2026-07-29 11:01:15.639820145 [W:onnxruntime:Default, tensorrt_execution_provider.h:92 log] [2026-07-29 15:01:15 WARNING] ModelImporter.cpp:653: Make sure input position_ids has Int64 binding.[m
+[0;93m2026-07-29 11:01:16.198795447 [W:onnxruntime:Default, tensorrt_execution_provider.h:92 log] [2026-07-29 15:01:16 WARNING] ModelImporter.cpp:653: Make sure input position_ids has Int64 binding.[m
+[INFO] [1785337276.588507480] [alpamayo_node]: TRT Expert loaded: /home/aymen/autoware_data/alpamayo/v0.1/expert_step.int8.qdq.onnx
+[INFO] [1785337276.589190592] [alpamayo_node]: Diffusion inference steps: 5
+[INFO] [1785337276.589760944] [alpamayo_node]: Generation: GREEDY (top_p=1.0, temperature=1.0)
+[INFO] [1785337279.392683998] [alpamayo_node]: Alpamayo model loaded and ready.
+[INFO] [1785337382.560068164] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337389.693532049] [alpamayo_node]: [frame] scene=urban prefill=3073tok generated=22tok duration=7.132s cam_stamp=1552440203.963 | cot: Stop to yield to the pedestrian in the crosswalk ahead since the person is walking across our lane
+[INFO] [1785337389.694060956] [alpamayo_node]: Alpamayo inference completed in 7.13s (points=64, generated=22tok, scene=urban).
+[INFO] [1785337392.559678741] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337396.442490493] [alpamayo_node]: [frame] scene=other prefill=3073tok generated=14tok duration=3.882s cam_stamp=1552440204.963 | cot: Stop for the red traffic light ahead since it is red
+[INFO] [1785337396.442932808] [alpamayo_node]: Alpamayo inference completed in 3.88s (points=64, generated=14tok, scene=other).
+[INFO] [1785337402.561413218] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+/home/aymen/Documents/alpamayo-autoware/.venv/lib/python3.12/site-packages/numpy/linalg/linalg.py:2180: RuntimeWarning: invalid value encountered in det
+  r = _umath_linalg.det(a, signature=signature)
+[ERROR] [1785337405.853186042] [alpamayo_node]: Alpamayo inference failed: Non-positive determinant (left-handed or null coordinate frame) in rotation matrix 0: [[nan nan  0.]
+ [nan nan  0.]
+ [ 0.  0.  1.]].
+[INFO] [1785337412.560093763] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337416.539266167] [alpamayo_node]: [frame] scene=other prefill=3073tok generated=15tok duration=3.978s cam_stamp=1552440206.962 | cot: Nudge left due to the vehicle crossing from the right ahead
+[INFO] [1785337416.539678733] [alpamayo_node]: Alpamayo inference completed in 3.98s (points=64, generated=15tok, scene=other).
+[INFO] [1785337422.559624909] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[ERROR] [1785337425.885179515] [alpamayo_node]: Alpamayo inference failed: Non-positive determinant (left-handed or null coordinate frame) in rotation matrix 0: [[nan nan  0.]
+ [nan nan  0.]
+ [ 0.  0.  1.]].
+[INFO] [1785337432.559980030] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337435.858244106] [alpamayo_node]: [frame] scene=other prefill=3073tok generated=9tok duration=3.297s cam_stamp=1552440208.963 | cot: Stop due to red traffic light
+[INFO] [1785337435.858689107] [alpamayo_node]: Alpamayo inference completed in 3.30s (points=64, generated=9tok, scene=other).
+[INFO] [1785337442.560219401] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[ERROR] [1785337445.934032311] [alpamayo_node]: Alpamayo inference failed: Non-positive determinant (left-handed or null coordinate frame) in rotation matrix 0: [[nan nan  0.]
+ [nan nan  0.]
+ [ 0.  0.  1.]].
+[INFO] [1785337452.560592941] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337455.909166555] [alpamayo_node]: [frame] scene=other prefill=3073tok generated=10tok duration=3.348s cam_stamp=1552440210.963 | cot: Stop because of the red traffic light
+[INFO] [1785337455.909571083] [alpamayo_node]: Alpamayo inference completed in 3.35s (points=64, generated=10tok, scene=other).
+[INFO] [1785337462.560137125] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337465.845835944] [alpamayo_node]: [frame] scene=other prefill=3073tok generated=9tok duration=3.285s cam_stamp=1552440211.963 | cot: Stop for the red traffic light
+[INFO] [1785337465.846242822] [alpamayo_node]: Alpamayo inference completed in 3.28s (points=64, generated=9tok, scene=other).
+[INFO] [1785337472.560732893] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337477.035780536] [alpamayo_node]: [frame] scene=urban prefill=3073tok generated=20tok duration=4.474s cam_stamp=1552440212.963 | cot: Yield to the pedestrian in the crosswalk since they are walking across our lane ahead
+[INFO] [1785337477.036760035] [alpamayo_node]: Alpamayo inference completed in 4.47s (points=64, generated=20tok, scene=urban).
+[INFO] [1785337482.560013176] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[INFO] [1785337486.345190659] [alpamayo_node]: [frame] scene=urban prefill=3073tok generated=14tok duration=3.784s cam_stamp=1552440213.962 | cot: Yield due to a pedestrian in the crosswalk ahead
+[INFO] [1785337486.345602862] [alpamayo_node]: Alpamayo inference completed in 3.78s (points=64, generated=14tok, scene=urban).
+[INFO] [1785337492.560358193] [alpamayo_node]: Starting Alpamayo inference from streaming data. nav_text=None
+[ERROR] [1785337495.805002891] [alpamayo_node]: Alpamayo inference failed: Non-positive determinant (left-handed or null coordinate frame) in rotation matrix 0: [[nan nan  0.]
+ [nan nan  0.]
+ [ 0.  0.  1.]].

@@ -1,0 +1,106 @@
+clip_id,t0_us,scene,prefill_tokens,generated_tokens,duration_sec,cot
+40a11a64-aed4-49c1-b747-b3befdcd708d,5100000,other,3073,11,5.250,Adjust speed due to the lead vehicle ahead
+40a11a64-aed4-49c1-b747-b3befdcd708d,6100000,intersection,3073,15,4.272,Stop to yield to the pedestrians walking across the crosswalk ahead
+40a11a64-aed4-49c1-b747-b3befdcd708d,7100000,intersection,3073,20,4.857,Stop to yield to the pedestrians in the crosswalk ahead since they are entering our lane
+40a11a64-aed4-49c1-b747-b3befdcd708d,8100000,intersection,3073,16,4.318,Stop to yield to the pedestrian crossing ahead since the crossing is occupied
+40a11a64-aed4-49c1-b747-b3befdcd708d,9100000,intersection,3073,13,4.075,Yield because of a pedestrian in the crosswalk
+40a11a64-aed4-49c1-b747-b3befdcd708d,10100000,intersection,3073,11,3.795,Yield due to pedestrians crossing the street
+40a11a64-aed4-49c1-b747-b3befdcd708d,11100000,intersection,3073,12,3.857,Yield due to pedestrians in the crosswalk
+40a11a64-aed4-49c1-b747-b3befdcd708d,12100000,intersection,3073,12,3.945,Stop for going straight since pedestrians are crossing ahead
+40a11a64-aed4-49c1-b747-b3befdcd708d,13100000,intersection,3073,11,3.845,Stop to yield to the pedestrian crossing ahead
+40a11a64-aed4-49c1-b747-b3befdcd708d,14100000,intersection,3073,16,4.306,Yield to the pedestrians since they are walking across the lane ahead
+40a11a64-aed4-49c1-b747-b3befdcd708d,15100000,intersection,3073,17,4.513,Stop to yield to the pedestrian crossing ahead since they are blocking our lane
+40a11a64-aed4-49c1-b747-b3befdcd708d,16100000,straight,3073,17,4.420,Keep distance to the lead vehicle since it is directly ahead in our lane
+40a11a64-aed4-49c1-b747-b3befdcd708d,17100000,other,3073,14,4.174,Keep distance to the lead vehicle since it is directly ahead
+40a11a64-aed4-49c1-b747-b3befdcd708d,18100000,straight,3073,17,4.530,Nudge left due to the van blocking the right side of our lane
+40a11a64-aed4-49c1-b747-b3befdcd708d,19100000,other,3073,14,4.177,Keep distance to the lead vehicle since it is slowing ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,5100000,intersection,3073,17,4.506,Yield due to oncoming anticipation of a left turn across our lane
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,6100000,intersection,3073,10,3.625,Yield since pedestrians are crossing ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,7100000,straight,3073,16,4.313,Stop to keep distance to the stopped lead vehicle ahead blocking our lane
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,8100000,urban,3073,14,4.183,Stop to yield to the pedestrian walking into our lane ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,9100000,urban,3073,12,3.950,Yield to the pedestrian exiting the vehicle ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,10100000,straight,3073,13,3.985,Yield to the stopped lead vehicle blocking the lane
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,11100000,urban,3073,14,4.056,Stop due to pedestrian at the edge of our lane ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,12100000,other,3073,14,4.066,Keep distance to the lead vehicle since it is stopped ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,13100000,intersection,3073,21,4.956,Yield to the pedestrian walking across the crosswalk ahead since it is directly in our path
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,14100000,intersection,3073,20,4.819,Yield to the pedestrian walking across the crosswalk ahead since they are entering our lane
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,15100000,intersection,3073,17,4.413,Keep distance to the lead vehicle since it is stopped ahead at the intersection
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,16100000,intersection,3073,15,4.178,Yield due to the pedestrian walking across the crosswalk ahead
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,17100000,intersection,3073,19,4.629,Yield to the pedestrian in the crosswalk ahead since they are crossing our path
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,18100000,straight,3073,22,4.954,Going directly ahead is a right turn since our lane is right-turn only and we must turn right
+1de484ec-e29f-41ca-b4e8-4c91e0a1d66c,19100000,unknown,3073,63,9.597,
+13f0af4c-2565-4a4d-b765-7f397f1d1684,5100000,intersection,3073,14,4.182,Yield due to pedestrians walking across the crosswalk ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,6100000,intersection,3073,15,4.286,Yield due to a pedestrian walking across the crosswalk ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,7100000,intersection,3073,15,4.279,Yield due to a pedestrian walking across a crosswalk ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,8100000,intersection,3073,18,4.601,伶 to yield to the crossing pedestrian since they are walking across our lane ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,9100000,intersection,3073,13,3.984,Yield to the pedestrian walking across our lane ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,10100000,intersection,3073,16,4.297,Keep speed through the intersection since the straight traffic light is green.
+13f0af4c-2565-4a4d-b765-7f397f1d1684,11100000,intersection,3073,14,4.142,Keep speed through the intersection since the traffic light is green
+13f0af4c-2565-4a4d-b765-7f397f1d1684,12100000,intersection,3073,14,4.150,Keep speed through the intersection since the traffic light is green
+13f0af4c-2565-4a4d-b765-7f397f1d1684,13100000,intersection,3073,15,4.282,Yield due to a pedestrian walking across the crosswalk ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,14100000,intersection,3073,17,4.393,Yield due to a pedestrian walking across the crosswalk requiring speed labor
+13f0af4c-2565-4a4d-b765-7f397f1d1684,15100000,intersection,3073,15,4.176,Yield by slowing due to a pedestrian in the crosswalk
+13f0af4c-2565-4a4d-b765-7f397f1d1684,16100000,intersection,3073,18,4.562,Slow down and nudge left due to a pedestrian walking across our lane ahead
+13f0af4c-2565-4a4d-b765-7f397f1d1684,17100000,straight,3073,21,4.859,Nudge to the left to clear the curbside island blocking the center of our lane
+13f0af4c-2565-4a4d-b765-7f397f1d1684,18100000,intersection,3073,16,4.210,Accelerate to proceed through the intersection since the traffic light is green
+13f0af4c-2565-4a4d-b765-7f397f1d1684,19100000,highway,3073,17,4.510,Keep distance to the cut-in vehicle since it merges into our lane ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,5100000,other,3073,11,3.839,Slow down due to the lead vehicle ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,6100000,other,3073,11,3.786,Slow down due to the lead vehicle ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,7100000,other,3073,11,3.830,Yield to the slowing lead vehicle ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,8100000,other,3073,11,3.837,Slow down due to the lead vehicle ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,9100000,straight,3073,18,4.628,Keep distance to the lead vehicle since it is directly ahead in our lane.
+868a46b4-c9ad-4413-820a-e5b63b50ad39,10100000,other,3073,12,3.946,Slow down due to the lead vehicle ahead slowing
+868a46b4-c9ad-4413-820a-e5b63b50ad39,11100000,other,3073,14,4.100,Keep distance to the lead vehicle since it is slowing ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,12100000,other,3073,15,4.288,Keep distance to the lead vehicle since it is moving slowly ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,13100000,other,3073,13,4.068,Maintain low speed due to the lead vehicle ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,14100000,straight,3073,14,4.056,Yield to the construction worker walking in our lane ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,15100000,intersection,3073,21,4.840,Yield to the pedestrian since the person is walking across the crosswalk into our lane ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,16100000,intersection,3073,15,4.197,Yield to the pedestrian since they are crossing our lane ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,17100000,other,3073,13,3.982,Accelerate gently due to the lead vehicle clearing ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,18100000,straight,3073,14,4.083,Accelerate to maintain following distance to the lead vehicle ahead
+868a46b4-c9ad-4413-820a-e5b63b50ad39,19100000,other,3073,11,3.742,Slow down due to the lead vehicle ahead
+79937d25-63d0-4e38-9848-c714dcab0328,5100000,intersection,3073,21,4.846,Yield due to a pedestrian walking across the crosswalk; slow down to let them cross
+79937d25-63d0-4e38-9848-c714dcab0328,6100000,intersection,3073,17,4.500,Yield by decelerating due to a pedestrian in the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,7100000,intersection,3073,14,4.075,Yield to reduce speed for pedestrians in the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,8100000,intersection,3073,15,4.192,Stop to yield to the pedestrian walking across the crosswalk ahead
+79937d25-63d0-4e38-9848-c714dcab0328,9100000,intersection,3073,14,4.066,Stop to yield to the pedestrian walking across the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,10100000,intersection,3073,14,4.067,Stop to yield to the pedestrian in the crosswalk ahead
+79937d25-63d0-4e38-9848-c714dcab0328,11100000,intersection,3073,13,3.955,Yield due to the pedestrian in the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,12100000,intersection,3073,20,4.726,Stop to yield to the pedestrian in the crosswalk ahead since they are crossing our lane
+79937d25-63d0-4e38-9848-c714dcab0328,13100000,intersection,3073,14,4.094,Yield due to a pedestrian walking across the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,14100000,intersection,3073,14,4.143,Yield by slowing due to pedestrians in the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,15100000,intersection,3073,11,3.792,Yield to pedestrians in the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,16100000,intersection,3073,13,3.970,Yield due to a pedestrian in the crosswalk
+79937d25-63d0-4e38-9848-c714dcab0328,17100000,urban,3073,11,3.749,Yield due to pedestrians in our lane
+79937d25-63d0-4e38-9848-c714dcab0328,18100000,intersection,3073,15,4.271,Stop to yield to the pedestrian walking across the crosswalk ahead
+79937d25-63d0-4e38-9848-c714dcab0328,19100000,intersection,3073,14,4.201,Yield to the pedestrian walking across the crosswalk ahead
+5cde5b3e-c171-41d6-9906-c10a2516601e,5100000,intersection,3073,10,3.727,Stop due to a red traffic light
+5cde5b3e-c171-41d6-9906-c10a2516601e,6100000,intersection,3073,9,3.643,Stop due to red traffic light
+5cde5b3e-c171-41d6-9906-c10a2516601e,7100000,intersection,3073,16,4.259,Accelerate to proceed through the intersection since the traffic light turns green
+5cde5b3e-c171-41d6-9906-c10a2516601e,8100000,straight,3073,17,4.526,Keep distance to the lead scooter since it is directly ahead in our lane
+5cde5b3e-c171-41d6-9906-c10a2516601e,9100000,straight,3073,17,4.724,Keep distance to the lead motorcycle since it is directly ahead in our lane
+5cde5b3e-c171-41d6-9906-c10a2516601e,10100000,straight,3073,17,4.885,Keep distance to the lead motorcycle since it is directly ahead in our lane
+5cde5b3e-c171-41d6-9906-c10a2516601e,11100000,intersection,3073,21,5.205,Yield to the pedestrian walking across the crosswalk ahead since they are entering our lane.
+5cde5b3e-c171-41d6-9906-c10a2516601e,12100000,other,3073,14,4.130,Maintain fire dangerous acceleration due to the lead motorcycle ahead
+5cde5b3e-c171-41d6-9906-c10a2516601e,13100000,straight,3073,16,4.299,Maintain a safe distance from the motorcycle merging into our lane ahead
+5cde5b3e-c171-41d6-9906-c10a2516601e,14100000,straight,3073,14,4.180,Keep lane to continue driving since no lead obstacle is present
+5cde5b3e-c171-41d6-9906-c10a2516601e,15100000,intersection,3073,17,4.513,Accelerate to clear the intersection because of lack of cross‑traffic ahead
+5cde5b3e-c171-41d6-9906-c10a2516601e,16100000,other,3073,12,3.955,Yield due to the slow lead vehicle ahead
+5cde5b3e-c171-41d6-9906-c10a2516601e,17100000,intersection,3073,16,4.312,Resume speed since the next cross-trafficCreate a usable gap.
+5cde5b3e-c171-41d6-9906-c10a2516601e,18100000,straight,3073,16,4.320,Maintain speed due to an oncoming car staying in its lane
+5cde5b3e-c171-41d6-9906-c10a2516601e,19100000,other,3073,12,3.909,Slow down due to an oncoming vehicle ahead
+682fed39-be2a-4949-8d04-21529678ffca,5100000,straight,3073,20,4.811,Nudge to the left to clear the stopped truck blocking the right side of our lane
+682fed39-be2a-4949-8d04-21529678ffca,6100000,straight,3073,20,4.826,Nudge to the left to clear the stopped truck blocking the right side of our lane
+682fed39-be2a-4949-8d04-21529678ffca,7100000,straight,3073,21,4.963,Nudge to the left to clear the stopped box truck blocking the right side of our lane
+682fed39-be2a-4949-8d04-21529678ffca,8100000,straight,3073,17,4.507,Yield due to a person standing in our lane beside a vehicle ahead
+682fed39-be2a-4949-8d04-21529678ffca,9100000,urban,3073,13,4.065,Yield to the pedestrians walking into our lane ahead
+682fed39-be2a-4949-8d04-21529678ffca,10100000,other,3073,20,4.847,Nudge to the left to increase clearance because a man is walking in our path ahead
+682fed39-be2a-4949-8d04-21529678ffca,11100000,intersection,3073,11,3.840,Stop to yield to the pedestrian crossing ahead
+682fed39-be2a-4949-8d04-21529678ffca,12100000,urban,3073,12,3.954,Yield due to the pedestrian entering our lane
+682fed39-be2a-4949-8d04-21529678ffca,13100000,other,3073,14,4.169,Keep distance to the lead vehicle since it is stopped ahead
+682fed39-be2a-4949-8d04-21529678ffca,14100000,other,3073,16,4.307,Nudge to the right to create clearance for the oncoming truck
+682fed39-be2a-4949-8d04-21529678ffca,15100000,other,3073,14,4.152,Keep distance to the lead vehicle since it is stopped ahead
+682fed39-be2a-4949-8d04-21529678ffca,16100000,other,3073,14,4.184,Nudge right to give room to an oncoming truck
+682fed39-be2a-4949-8d04-21529678ffca,17100000,other,3073,14,4.176,Keep distance to the lead vehicle since it is stopped ahead
+682fed39-be2a-4949-8d04-21529678ffca,18100000,straight,3073,15,4.299,Stop to yield to the oncoming truck blocking the narrow lane
+682fed39-be2a-4949-8d04-21529678ffca,19100000,other,3073,17,4.499,Nudge to the right to create space for the oncoming truck.

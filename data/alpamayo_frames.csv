@@ -1,0 +1,9 @@
+ros_time,scene,prefill_tokens,generated_tokens,duration_sec,cam_stamp,cot
+1785337389.693532049,urban,3073,22,7.132,1552440203.963,"Stop to yield to the pedestrian in the crosswalk ahead since the person is walking across our lane"
+1785337396.442490493,other,3073,14,3.882,1552440204.963,"Stop for the red traffic light ahead since it is red"
+1785337416.539266167,other,3073,15,3.978,1552440206.962,"Nudge left due to the vehicle crossing from the right ahead"
+1785337435.858244106,other,3073,9,3.297,1552440208.963,"Stop due to red traffic light"
+1785337455.909166555,other,3073,10,3.348,1552440210.963,"Stop because of the red traffic light"
+1785337465.845835944,other,3073,9,3.285,1552440211.963,"Stop for the red traffic light"
+1785337477.035780536,urban,3073,20,4.474,1552440212.963,"Yield to the pedestrian in the crosswalk since they are walking across our lane ahead"
+1785337486.345190659,urban,3073,14,3.784,1552440213.962,"Yield due to a pedestrian in the crosswalk ahead"

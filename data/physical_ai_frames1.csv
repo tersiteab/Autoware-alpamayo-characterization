@@ -1,0 +1,61 @@
+clip_id,t0_us,scene,prefill_tokens,generated_tokens,duration_sec,cot
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,5100000,straight,3073,12,6.123,Yield to the workers blocking the lane ahead
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,6100000,straight,3073,23,52.301,Adapt speed to maintain a safe distance from the stopped lead vehicle since it is blocking the lane ahead
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,7100000,straight,3073,13,3.964,Slow down due to the lead vehicle blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,8100000,urban,3073,13,4.015,Yield due to the pedestrian blocking the lane ahead
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,9100000,straight,3073,14,4.191,Yield due to the stopped lead vehicle blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,10100000,intersection,3073,9,3.627,Stop because of red traffic light
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,11100000,straight,3073,17,4.511,Yield due to a worker standing behind a stopped truck blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,12100000,straight,3073,14,4.077,Yield due to the stopped lead vehicle blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,13100000,straight,3073,13,3.974,Stop due to a stopped lead vehicle blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,14100000,straight,3073,13,3.981,Stop due to a stopped lead vehicle blocking our lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,15100000,straight,3073,15,4.286,Stop to keep distance to the stopped lead vehicle blocking our lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,16100000,straight,3073,13,4.078,Yield to the stopped lead vehicle blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,17100000,straight,3073,12,3.872,Stop due to the lead vehicle blocking the lane
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,18100000,straight,3073,14,4.082,Yield due to a worker standing in our lane ahead
+5fa56c61-e8ed-4c0b-95dd-3e15c40d9f78,19100000,straight,3073,15,4.188,Stop to keep distance to the stopped lead vehicle blocking the lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,5100000,straight,3073,21,4.963,Nudge to the left to clear the construction barricades blocking the right side of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,6100000,urban,3073,19,4.745,Nudge to the right to create space from the pedestrian walking ahead in our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,7100000,highway,3073,22,5.083,Slow down to yield to the cut-in vehicle from the right since it merges into our lane ahead
+e0772c6e-1524-494f-b16f-84ca1a700a7b,8100000,straight,3073,22,5.084,Nudge to the left to avoid the vehicle encroaching from the right side of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,9100000,straight,3073,26,122.805,Nudge to the left in the same lane since construction our lane narrows next to a truck blocking the right side
+e0772c6e-1524-494f-b16f-84ca1a700a7b,10100000,straight,3073,20,4.852,Nudge to the left to clear the construction barrier blocking the right side of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,11100000,other,3073,10,3.748,Slow down for the speed bump ahead
+e0772c6e-1524-494f-b16f-84ca1a700a7b,12100000,straight,3073,20,4.870,Nudge to the left to clear the construction barrier blocking the right side of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,13100000,other,3073,14,4.182,Keep distance to the lead vehicle since it is stopped ahead
+e0772c6e-1524-494f-b16f-84ca1a700a7b,14100000,straight,3073,19,4.628,Nudge to the left to clear the construction dumpster blocking a portion of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,15100000,straight,3073,20,4.740,Yield to the cut-in vehicle from the right since it is entering our lane ahead
+e0772c6e-1524-494f-b16f-84ca1a700a7b,16100000,other,3073,17,4.432,Yield to the vehicle since it is pulling out into our path ahead
+e0772c6e-1524-494f-b16f-84ca1a700a7b,17100000,straight,3073,19,4.774,Nudge to the left to clear the obstruction blocking the right side of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,18100000,straight,3073,17,4.452,Nudge left due to construction barriers blocking the right side of our lane
+e0772c6e-1524-494f-b16f-84ca1a700a7b,19100000,straight,3073,22,5.081,Nudge to the left to clear the stopped vehicle blocking the lane ahead due to construction barricades
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,5100000,intersection,3073,11,3.859,Stop because the straight traffic light is red
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,6100000,intersection,3073,9,3.541,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,7100000,intersection,3073,11,3.757,Stop for the red straight traffic light ahead
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,8100000,intersection,3073,9,3.622,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,9100000,intersection,3073,11,3.851,Stop for the red straight traffic light ahead
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,10100000,intersection,3073,16,4.218,Stop for the red traffic light since cross traffic has right of way
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,11100000,intersection,3073,14,4.088,Stop for the red traffic light ahead since it is red
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,12100000,intersection,3073,9,3.541,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,13100000,intersection,3073,9,3.532,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,14100000,intersection,3073,9,3.531,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,15100000,intersection,3073,9,3.537,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,16100000,intersection,3073,9,3.534,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,17100000,intersection,3073,9,3.528,Stop due to red traffic light
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,18100000,intersection,3073,14,4.187,Stop at the stop line since the traffic light is red
+594d2c54-ca9a-4bda-be8e-532b2fc359fb,19100000,intersection,3073,18,4.636,tub reaching stopped for the red traffic light since cross-traffic is crossing ahead
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,5100000,unknown,3073,64,58.136,
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,6100000,intersection,3073,14,4.164,Keep speed through the intersection since the traffic light is green
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,7100000,intersection,3073,14,4.191,Keep speed through the intersection since the traffic light is green
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,8100000,straight,3073,17,4.585,Keep distance to the lead vehicle since it is directly ahead in our lane
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,9100000,urban,3073,18,4.613,Keep lane since the lane is clear and the bike lane is clear of cyclists
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,10100000,straight,3073,16,4.300,Keep at the center of the lane since the road ahead is clear
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,11100000,highway,3073,17,4.537,Keep distance to the cut-in van since it merges into our lane ahead
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,12100000,straight,3073,17,4.533,Keep distance to the lead vehicle since it is directly ahead in our lane
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,13100000,other,3073,16,4.252,Adapt speed to the slower lead vehicle since it is directly ahead
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,14100000,straight,3073,17,4.484,Keep distance to the lead vehicle since it is directly ahead in our lane
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,15100000,other,3073,20,4.879,Adapt speed to maintain a safe distance from the lead vehicle since it is directly ahead
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,16100000,straight,3073,17,4.523,Keep distance to the lead vehicle since it is directly ahead in our lane
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,17100000,other,3073,14,4.087,Keep distance to the lead vehicle since it is slowing ahead
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,18100000,straight,3073,23,5.179,Decelerate to maintain a safe distance to the lead vehicle since it is slowing ahead in our lane
+4f7b34b6-87e5-4cf9-a790-a691a15d9e95,19100000,other,3073,17,4.525,Keep distance to the lead vehicle since it is directly ahead and moving slowly

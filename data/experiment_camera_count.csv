@@ -1,0 +1,21 @@
+n_cameras,cameras,t0_us,prefill_tokens,generated_tokens,duration_sec,cot
+1,camera_front_wide_120fov,5100000,828,14,3.192,Slow down due to the stopped lead vehicle blocking the lane
+1,camera_front_wide_120fov,6100000,828,14,2.554,Slow down due to a stopped lead truck blocking the lane
+1,camera_front_wide_120fov,7100000,828,17,2.818,Adapt speed to maintain a safe distance from the stopped lead truck ahead
+1,camera_front_wide_120fov,8100000,828,23,3.508,Decelerate to maintain a safe distance to the lead vehicle since it is stopped ahead in our lane
+1,camera_front_wide_120fov,9100000,828,14,2.518,Yield due to a stationary lead vehicle blocking the lane
+2,camera_front_wide_120fov|camera_front_tele_30fov,5100000,1577,14,3.703,Slow down due to the stopped lead vehicle blocking the lane
+2,camera_front_wide_120fov|camera_front_tele_30fov,6100000,1577,12,2.786,Yield to the workers blocking the lane ahead
+2,camera_front_wide_120fov|camera_front_tele_30fov,7100000,1577,12,2.794,Yield due to workers blocking the lane ahead
+2,camera_front_wide_120fov|camera_front_tele_30fov,8100000,1577,14,3.008,Slow down due to the stationary lead vehicle blocking the lane
+2,camera_front_wide_120fov|camera_front_tele_30fov,9100000,1577,12,2.796,Stop due to the lead vehicle blocking the lane
+3,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov,5100000,2324,13,3.545,Slow down due to workers standing in our lane ahead
+3,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov,6100000,2324,12,3.364,Yield to the workers blocking the lane ahead
+3,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov,7100000,2324,12,3.291,Yield due to workers blocking the lane ahead
+3,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov,8100000,2324,12,3.316,Yield to the stopped truck blocking the lane
+3,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov,9100000,2324,13,3.468,Yield since a pedestrian is walking in our lane
+4,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov|camera_front_tele_30fov,5100000,3073,13,4.477,Slow down due to the lead vehicle blocking the lane
+4,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov|camera_front_tele_30fov,6100000,3073,12,4.391,Yield to the pedestrians blocking the lane ahead
+4,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov|camera_front_tele_30fov,7100000,3073,14,4.495,Slow down due to the stopped lead vehicle blocking the lane
+4,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov|camera_front_tele_30fov,8100000,3073,12,4.305,Yield to the workers blocking the lane ahead
+4,camera_cross_left_120fov|camera_front_wide_120fov|camera_cross_right_120fov|camera_front_tele_30fov,9100000,3073,14,4.616,Yield due to the stopped lead vehicle blocking the lane

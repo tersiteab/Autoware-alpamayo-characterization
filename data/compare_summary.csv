@@ -1,0 +1,263 @@
+frame_idx,cam_stamp,in_32_tok,in_64_tok,scene_a,scene_b,scene_match,duration_a,duration_b,cot_a,cot_b
+1,1545235952.935000,True,True,other,other,True,2.373,2.386,Keep lane since the lane is clear ahead,Keep lane since the lane is clear ahead
+2,1545235953.934000,True,True,intersection,intersection,True,1.857,1.891,Stop for the stop sign across the intersection,Stop for the stop sign across the intersection
+3,1545235954.933000,True,True,unknown,other,False,4.081,7.277,,"Change lane to the left due to a slow/stopped box truck blocking the right side of our lane; after projecting, move left"
+4,1545235955.932000,True,False,intersection,,False,2.274,,Turn left at the intersection since there is no oncoming traffic,
+5,1545235956.931000,True,True,unknown,intersection,False,4.071,2.201,,Turn right at the intersection since there is no cross traffic
+6,1545235957.930000,True,True,intersection,unknown,False,3.176,5.966,Turn right at the intersection since the current road ends ahead and two way traffic is smaller on that road,
+7,1545235958.929000,True,False,urban,,False,2.855,,Keep distance to the pedestrian ahead since they are walking in our path after the right turn,
+8,1545235959.928000,True,True,urban,urban,True,2.434,2.202,Yield to the pedestrian since they are walking in our lane ahead,Keep distance to the pedestrian since unexpected pedestrian movement occurs ahead
+9,1545235960.927000,True,True,unknown,urban,False,4.139,2.413,,Keep distance to the pedestrian since they are walking ahead in our lane
+10,1545235961.926000,True,True,urban,urban,True,2.077,2.415,Slow down due to a pedestrian ahead in our lane,Yield due to a pedestrian blocking the lane ahead requiring speed reduction
+11,1545235962.926000,True,True,urban,urban,True,2.833,2.201,Yield to the pedestrian crossing the lane since they are directly blocking ahead of our vehicle,Yield due to a pedestrian walking ahead in our lane
+12,1545235963.925000,True,True,other,other,True,2.499,1.879,Keep distance to the cut-in vehicle since it merges into our lane ahead,Keep lane because the lane is clear ahead
+13,1545235964.923000,True,True,other,other,True,2.510,2.517,Keep distance to the lead vehicle since it is directly ahead in our lane,Keep distance to the lead vehicle since it is directly ahead in our lane
+14,1545235965.923000,True,True,other,other,True,1.766,2.522,Slow down for the speed bump ahead,Stop for the stop sign since it requires a full stop before proceeding ahead
+15,1545235966.922000,True,True,other,other,True,1.869,1.770,Slow down due to an upcoming speed bump,Slow down for the speed bump ahead
+16,1545235967.921000,True,True,other,other,True,2.402,1.876,Keep at the center of the lane since the lane is clear ahead,Keep lane since the lane is clear ahead
+17,1545235968.920000,True,True,other,other,True,1.866,1.869,Keep lane since the lane is clear ahead,Keep lane since the lane is clear ahead
+18,1545235969.919000,True,True,other,other,True,2.417,2.412,Keep distance to the parked vehicle since it is adjacent to our lane,Adapt speed for the right curve since the lane bends right ahead
+19,1545235970.918000,True,True,other,intersection,False,2.747,2.523,Keep at the center of the lane to continue driving since the lane is clear ahead,Turn right to navigate around the center island blocking the center of our lane
+20,1545235971.917000,True,True,unknown,other,False,4.152,2.512,,Keep distance to the lead vehicle since it is stopped ahead blocking our path
+21,1545235972.917000,True,True,other,other,True,2.303,2.839,Keep at the center of the aisle since no agent requires attention,Yield to the cut-in vehicle from the right since it is entering our lane ahead
+22,1545235973.915000,True,True,other,other,True,2.580,2.513,Nudge to the right because an oncoming vehicle is in close proximity ahead,Keep distance to the lead vehicle since it is turning into our path ahead
+23,1545235974.915000,True,True,other,other,True,2.158,2.415,Keep distance to the lead vehicle since it is stopped ahead,Adapt speed for any right curve since the lane bends right ahead
+24,1545235975.914000,True,True,other,other,True,2.368,2.414,Keep at the center of the lane since the lane is clear ahead,Keep lane since no lead vehicle or control device is in our path
+25,1545235976.912000,True,True,unknown,intersection,False,4.083,2.313,,Turn left to navigate around the parked vehicles blocking the forward path
+26,1545235977.912000,True,True,unknown,intersection,False,2.480,2.419,,Turn right to follow the parking aisle since the roadway bends right ahead
+27,1545235978.911000,True,True,unknown,other,False,4.069,2.422,,Adapt speed for the right curve since the lane bends right ahead
+28,1545235979.910000,True,True,other,unknown,False,2.494,6.199,Keep distance to the lead vehicle since it is stopped ahead in our lane,
+29,1545235980.909000,True,False,intersection,,False,2.498,,Turn right to follow the parking lot aisle since the lane curves right ahead,
+30,1545235981.908000,True,True,unknown,other,False,4.129,2.743,,Adapt speed for the right curve since the lane bends around a median island ahead
+31,1545235982.907000,True,True,parking,other,False,2.612,1.879,Adapt speed for the right curve since the parking lot aisle bends right ahead,Keep lane since the path is clear ahead
+32,1545235983.906000,True,True,other,intersection,False,2.476,2.549,Adapt speed for the right curve since the parking aisle bends right ahead,Turn right to follow the parking lot aisle since the lane bends right ahead
+33,1545235984.905000,True,True,unknown,intersection,False,4.076,2.635,,Turn left at the parking lot intersection since the aisle bends left and is clear
+34,1545235985.904000,True,True,intersection,other,False,2.290,2.534,Turn left to exit the parking lot since the path is clear,Adapt speed for the right curve since the parking aisle bends right ahead
+35,1545235986.904000,True,True,other,unknown,False,2.794,3.248,Yield to the cut-in vehicle from the right since it is entering our lane ahead,
+36,1545235987.903000,True,True,other,intersection,False,2.264,2.267,Keep lane since the aisle is clear with no critical conclusion ahead,Turn left to exit the parking aisle since the roadway is clear
+37,1545235988.901000,True,True,other,intersection,False,2.378,1.733,Keep lane since the lane is clear and no lead vehicle is present,Turn left because the aisle is clear
+38,1545235989.901000,True,True,unknown,other,False,4.080,1.998,,Keep lane since the parking aisle is clear ahead
+39,1545235990.900000,True,True,intersection,other,False,2.414,2.527,Turn right to enter a parking spot since no critical agent needs attention,Keep lane since the path is clear ahead with parked cars to the right
+40,1545235991.899000,True,True,urban,urban,True,2.211,2.411,Yield due to a pedestrian walking into our path ahead,Keep distance to the pedestrian since they are walking near our path ahead
+41,1545235992.898000,True,False,other,,False,1.777,,Keep lane since the path is clear,
+42,1545235992.998000,False,True,,other,False,,2.736,,Nudge to the left to clear the vehicle with an open door blocking the lane
+43,1545235993.997000,True,True,other,other,True,2.416,1.879,Keep at the center of the lane since no critical agent affects driving,Keep lane since the lane is clear ahead
+44,1545235994.896000,True,False,other,,False,2.311,,Keep at the center of the lane since the path is clear,
+45,1545235994.996000,False,True,,other,False,,2.529,,Keep distance to the lead vehicle since it is directly ahead in our lane
+46,1545235995.995000,True,True,other,other,True,2.632,2.509,Slow down to maintain a safe distance from the stopped vehicle blocking the lane ahead,Keep distance to the stopped lead vehicle ahead since it is blocking our path
+47,1545235996.994000,True,True,other,other,True,2.529,2.372,Nudge to the right to clear the stopped vehicle blocking the lane ahead,Adapt speed for the right curve since the lane bends right ahead
+48,1545235997.993000,True,True,unknown,intersection,False,4.143,5.273,,Decelerate and come to a stop for the stop sign ahead; there is no lead vehicle directly in our path but we must yield t
+49,1545235998.992000,True,False,intersection,,False,2.421,,Turn left at the intersection since the way is clear of cross traffic,
+50,1545235999.991000,True,True,other,other,True,2.539,2.534,Keep distance to the lead vehicle since it is directly ahead in our path,Keep distance to the lead vehicle since it is stopped ahead in our lane
+51,1545236000.991000,True,True,other,other,True,2.646,2.848,Nudge to the left to clear the stopped lead vehicle blocking the path ahead,Yield to the cut-in vehicle from the left since it is entering our lane ahead
+52,1545236001.989000,True,True,other,urban,False,2.865,6.178,Stop to yield to the cross-traffic since a vehicle is crossing ahead of our path,"Lane change to the left due to needing to clear pedestrians standing at the corner, then merge onto the travel lane with"
+53,1545236002.989000,True,False,urban,,False,2.440,,Proceed slowly due to a pedestrian geometry without a clear crosswalk line,
+54,1545236003.988000,True,True,other,other,True,1.648,1.764,Stop for the stop sign ahead,Keep lane since the path is clear
+55,1545236004.987000,True,True,other,other,True,1.965,2.824,Keep lane since no critical agent affects the path,Nudge right due to a vehicle encroaching from the left side of our lane
+56,1545236005.986000,True,True,other,other,True,2.390,4.687,Keep lane since the lane is clear and no immediate hazards are present,"begins turning left and continue acceleration because the safe gap to cross traffic has reached, and the left‑ vacant st"
+57,1545236006.985000,True,True,other,other,True,1.873,2.794,Keep lane since the path is clear ahead,Yield to the cut-in vehicle from the left since it merges into our lane ahead
+58,1545236007.984000,True,True,other,unknown,False,1.747,2.945,Keep lane since the lane is clear,
+59,1545236008.983000,True,True,intersection,intersection,True,2.589,2.742,Turn left at our intersection since there is a stop sign ahead controlling our approach,Slow down for the stop sign since the intersection ahead is controlled by a stop sign
+60,1545236009.982000,True,True,other,urban,False,1.845,2.093,Slow down for the stop sign ahead.,Yield to the pedestrian walking along the curb ahead
+61,1545236010.981000,True,True,urban,urban,True,2.706,2.528,Keep distance to the pedestrians since they are walking at the edge of the lane ahead,Keep distance to the pedestrian since the person is walking into our lane ahead
+62,1545236011.980000,True,True,urban,unknown,False,2.705,7.578,Yield by slowing down due to a pedestrian walking along the edge of our path,
+63,1545236012.980000,True,False,urban,,False,2.164,,Yield due to a pedestrian walking in the crosswalk,
+64,1545236013.979000,True,True,intersection,unknown,False,1.841,7.481,Stop for the stop sign controlling the intersection,
+65,1545236014.977000,True,False,intersection,,False,2.516,,Stop for the stop sign ahead since it controls our approach to the intersection,
+66,1545236015.977000,True,True,intersection,intersection,True,1.743,1.845,Turn left because the intersection is clear,Stop for the stop sign controlling the intersection
+67,1545236016.976000,True,True,unknown,intersection,False,2.808,2.261,,Nudge left to avoid the must turn right sign hillside
+68,1545236017.975000,True,True,other,intersection,False,2.478,2.738,Keep distance to the lead vehicle since it is stopped ahead in our lane,Turn right at the intersection since the intersection is clear after stopping for the stop sign
+69,1545236018.974000,True,True,unknown,intersection,False,1.852,1.872,,Stop for the stop sign controlling the intersection
+70,1545236019.973000,True,True,other,unknown,False,1.860,4.785,Stop for the stop sign controlling our lane,
+71,1545236020.972000,True,True,unknown,other,False,2.277,1.667,,Stop for the stop sign ahead
+72,1545236021.971000,True,True,other,other,True,1.751,1.984,Stop due to the stop sign ahead,Stop for the stop sign controlling our approach.
+73,1545236022.970000,True,True,other,other,True,2.806,2.508,Keep distance to the cut-in vehicle since it merges into our lane ahead during this interval,Keep distance to the lead vehicle since it is directly ahead in our lane
+74,1545236023.969000,True,True,other,other,True,2.063,1.857,Keep lane since the lane is clear without obstacles ahead,Keep lane since the lane is clear ahead
+75,1545236024.969000,True,True,parking,other,False,2.481,2.471,Slow down for the right curve since the parking lot entrance bends right ahead,Keep distance to the cut-in vehicle since it merges into our lane ahead
+76,1545236025.967000,True,True,other,other,True,1.742,2.848,Slow down for the speed bump ahead,Keep lane since the path is clear with only a parking sign and no lead vehicle ahead
+77,1545236026.966000,True,True,other,other,True,2.480,2.858,Nudge to the left to clear the small object in our lane ahead,Keep distance to the cut-in vehicle since it merges into our lane ahead after the turn
+78,1545236027.966000,True,True,other,other,True,2.486,2.205,Nudge to the right since the stopped car blocking the lane is cleared,Stop and hold position since there is no critical agent ahead
+79,1545236028.965000,True,True,other,other,True,1.844,2.415,Keep lane since the lane is clear ahead,Keep lane since the lane ahead is clear with no pose or obstacles
+80,1545236029.964000,True,True,unknown,other,False,4.075,1.876,,Slow down due to a speed bump ahead
+81,1545236030.963000,True,True,intersection,intersection,True,3.070,2.529,Turn left to navigate into a parking space since the path is clear and no lead vehicle is present,Turn right into the driveway because the further street is clear of cross traffic
+82,1545236031.962000,True,True,unknown,urban,False,4.156,7.030,,"Lane change to the right due to the roadway-in detailed Directly ahead, creating the need to reposition into a clear rig"
+83,1545236032.961000,True,False,other,,False,1.876,,Keep lane since the road is clear ahead,
+84,1545236033.960000,True,True,other,intersection,False,2.966,4.346,Keep distance to the vehicle pulling out into our lane since it indicates our intention to merge ahead,"Stop and wait for a usable gap because cross-traffic is moving through a small roundabout directly ahead, blocking our p"
+85,1545236034.959000,True,True,other,intersection,False,2.478,3.825,Keep distance to the lead vehicle since it is directly ahead in our lane,Stop to yield to vehicles circulating in our roundabout; multiple cars are already moving across our entrance and should
+86,1545236035.958000,True,True,unknown,other,False,2.167,2.636,,Keep distance to the lead vehicle since it is stopped ahead after the right turn
+87,1545236036.958000,True,True,other,other,True,2.901,2.844,Nudge to the left to clear the vehicle protruding from the right side of our lane,Adapt speed for the right curve since the image shows the lane curving right ahead
+88,1545236037.956000,True,True,unknown,other,False,4.085,3.279,,"Change lanes to the left to bypass an obstruction blocking the right lane, then proceed forward after clearing it."
+89,1545236038.956000,True,True,urban,other,False,2.413,2.945,Keep distance to the pedestrian ahead since they are walking along our lane,Adapt speed for the right curve since the lane bends right and is narrowed by parked vehicles
+90,1545236039.955000,True,True,unknown,other,False,4.166,2.761,,Nudge to the left to clear the non permission silver vehicle blocking the lane ahead
+91,1545236040.954000,True,True,other,other,True,2.528,2.527,Keep distance to the lead vehicle since it is directly ahead in our lane,Keep at the center of the lane since there is no immediate obstacle ahead
+92,1545236041.953000,True,True,urban,other,False,3.604,2.845,"Stop to yield to the pedestrians walking across the driveway//w BorderLayout directly ahead in our path, blocking our fo",Yield to the cut-in vehicle from the right since it is entering our lane ahead
+93,1545236042.952000,True,True,other,urban,False,2.487,7.158,Keep distance to the cut-in vehicle since it merges into our lane ahead,Brake to a stop for pedestrians walking into our travel path within the parking aisle; cyclists/票价 indication also sugge
+94,1545236043.951000,True,False,other,,False,2.932,,Nudge to the left to increase clearance since a person is standing beside a parked car ahead,
+95,1545236044.950000,True,True,other,other,True,2.369,2.411,Keep lane since the lane is clear and no lead vehicle is present,Keep at the center of the lane because no immediate agent requires attention
+96,1545236045.949000,True,True,other,other,True,1.838,2.090,Stop for the car blocking the lane ahead,Keep distance to the stopped van blocking the lane ahead
+97,1545236046.948000,True,True,other,other,True,2.368,2.527,Nudge to the left to clear the stopped van blocking the lane,Keep distance to the lead vehicle since it is stopped ahead blocking our path
+98,1545236047.947000,True,True,urban,urban,True,2.373,2.952,Keep distance to the pedestrians since they are walking in our lane ahead,Keep distance to the pedestrians ahead since they are walking near our path in front of parked cars
+99,1545236048.947000,True,True,other,other,True,2.793,2.842,Yield to the cut-in vehicle from the left since it is entering our lane ahead,Nudge to the left to increase clearance from the open door of the stopped vehicle ahead
+100,1545236049.945000,True,True,other,unknown,False,2.380,3.377,Keep distance to the merging vehicle since it is entering our lane ahead,
+101,1545236050.944000,True,True,unknown,other,False,4.058,4.560,,Stop because the forward path is constricted between parked vehicles and there isn’t an open safe gap to proceed; contin
+102,1545236051.944000,True,True,unknown,other,False,4.090,2.534,,Yield to the cut-in vehicle since it merges into our lane ahead
+103,1545236052.943000,True,True,other,other,True,2.424,2.520,Adapt speed for the right curve since the driveway bends right ahead,Keep distance to the lead vehicle since it is stopped ahead in our lane
+104,1545236053.942000,True,True,unknown,intersection,False,4.138,2.193,,Turn right to navigate km/h and avoid parked vehicles ahead
+105,1545236054.941000,True,True,other,other,True,2.476,2.524,Keep distance to the lead vehicle since it is directly ahead in our lane,Keep distance to the lead vehicle since it is stopped ahead in our lane
+106,1545236055.940000,True,True,other,other,True,1.851,2.850,Keep lane since no critical agent needs attention,Nudge to the left to clear the stopped Vehicles blocking the right side of our lane
+107,1545236056.939000,True,True,other,other,True,2.381,2.844,Keep distance to the emergency vehicle since it is stopped near our path,Yield to the cut-in vehicle from the right since it is entering our lane ahead
+108,1545236057.938000,True,True,other,other,True,1.957,1.882,Resume speed since the crossing vehicle has cleared ahead,Keep lane since the lane is clear ahead
+109,1545236058.937000,True,True,other,other,True,3.357,4.566,Nudge to the left in the same lane to clear the stopped vehicle blocking the right side of the scene ahead,"Brake involved to come to a stop behind traffic in our lane, as both our lane and the one directly ahead are occupied by"
+110,1545236059.936000,True,True,other,intersection,False,2.809,2.629,Keep distance to the lead vehicle since it is directly ahead in our lane after downstream merge,Turn right into a parking space since parked cars on both sides closed open.
+111,1545236060.935000,True,True,other,intersection,False,2.522,5.138,Yield to the cut-in vehicle since it merges into our path ahead,"Decelerate to a stop because cross-traffic from the right is entering our path at a T-intersection, and we must yield be"
+112,1545236061.934000,True,False,other,,False,1.961,,Hold position since no relevant agent needs special attention,
+113,1545236062.933000,True,True,other,other,True,1.875,2.847,Stop due to a vehicle crossing in front,Yield to the cut-in vehicle from the right since it merges into our lane ahead
+114,1545236063.933000,True,True,other,intersection,False,2.497,2.097,Keep distance to the cut-in vehicle since it merges into our lane ahead,Turn right at the intersection since the intersection is clear
+115,1545236064.931000,True,True,unknown,other,False,4.094,3.284,,Yield to the cross-traffic since cars are moving across our path at 2 to 4 seconds
+116,1545236065.931000,True,True,unknown,intersection,False,4.097,6.720,,"Stop to yield to vehicles turning left across our path at the intersection, which have the right-of-way as per our curre"
+117,1545236066.930000,True,False,other,,False,2.418,,Stop to yield to the vehicle in front turning left across our path,
+118,1545236067.929000,True,True,other,other,True,1.886,1.878,Slow down due to the speed bump ahead,Slow down due to an upcoming speed bump
+119,1545236068.928000,True,True,intersection,intersection,True,2.416,2.091,Turn right at the intersection since the cross-traffic vehicle has cleared,Turn left at the intersection since the path is clear
+120,1545236069.927000,True,True,other,unknown,False,1.869,7.035,Resume speed since the lane is clear ahead,
+121,1545236070.926000,True,False,other,,False,2.063,,Adapt speed due to the curving road ahead,
+122,1545236071.925000,True,True,unknown,intersection,False,4.087,2.307,,Turn left along the parking lot aisle since the road curves left
+123,1545236072.924000,True,True,other,other,True,2.423,2.421,Adapt speed for the left curve since the driveway bends left ahead,Adapt speed for the right curve since the aisle bends right ahead
+124,1545236073.923000,True,True,parking,intersection,False,2.644,2.411,Adapt speed for the right curve since the parking lot entrance bends right ahead,Turn right to follow the parking aisle since the lane bends right ahead
+125,1545236074.922000,True,True,other,other,True,2.481,1.773,Adapt speed for the right curve since the parking aisle bends right ahead,Adjust speed for the right curve ahead
+126,1545236075.922000,True,True,unknown,other,False,4.109,2.530,,Keep at the center of the lane since no critical agent needs special attention
+127,1545236076.921000,True,True,intersection,intersection,True,2.422,2.750,Slow down for the roundabout since a發展 roundabout is ahead,Turn right to enter the parking lot aisle since the path is clear of moving vehicles
+128,1545236077.920000,True,True,other,intersection,False,2.523,2.748,Slow down for the speed bump ahead since it is directly in our path,Turn right to follow the aisle since parked vehicles narrow and block the left side ahead
+129,1545236078.919000,True,True,other,other,True,2.368,2.210,Keep distance to the stopped bus since it is blocking the exit ahead,Keep lane since the aisle is clear with only parked cars
+130,1545236079.918000,True,True,intersection,intersection,True,2.578,2.315,Turn left to navigate through the parking lot aisle since parked cars block straight travel,Turn left to maintain clearance from parked vehicles blocking the direct path
+131,1545236080.917000,True,True,other,intersection,False,2.268,2.206,Keep at the center of the lane since the lane is clear,Turn left to navigate around parked vehicles blocking our path ahead
+132,1545236081.916000,True,True,other,other,True,2.369,1.880,Keep lane since the aisle is clear and no critical agent needs attention,Keep lane since the lane is clear ahead
+133,1545236082.915000,True,True,other,other,True,2.590,2.839,Keep distance to the lead vehicle since it is pulling out and moving slowly ahead,Yield to the cut-in vehicle from the right since it is entering our lane ahead
+134,1545236083.914000,True,True,other,intersection,False,3.006,2.157,Keep distance to the cut-in vehicle since it merges into our lane ahead since we're turning left,Turn left into the parking aisle since the lane is clear
+135,1545236084.914000,True,True,other,other,True,1.847,3.732,Slow down due to the speed bump ahead,"Change lane to the left due to reduced space and potential conflict blocking the right side from parked vehicles, then p"
+136,1545236085.912000,True,True,parking,other,False,2.588,2.852,Adapt speed for the right curve since the parking lot aisle bends right ahead,Nudge to the right to clear the cart blocking part of our path in our lane
+137,1545236086.911000,True,True,intersection,urban,False,2.156,2.413,Turn left into the parking aisle since the path is clear,Keep distance to the pedestrian since they are walking ahead in our lane
+138,1545236087.911000,True,True,urban,parking,False,2.588,2.736,Keep distance to the pedestrian walking ahead since avoids any potential collision in our path,Stop since the parking lot aisle ends and requires a turn to am🚢 into it
+139,1545236088.909000,True,True,parking,urban,False,2.593,2.528,Stop for the stop sign ahead since it controls our lane in the parking lot,Keep distance to the pedestrian walking ahead since they are walking in our lane
+140,1545236089.909000,True,True,urban,straight,False,3.758,5.733,"Stop for pedestrians walking in and out of shops in our parking aisle, blocking our path and requiring us to yield until","Stop because the set of vehicles ahead ( בראש cars) has come to a halt in our narrow parking-lot aisle, blocking our pat"
+141,1545236090.908000,True,False,other,,False,2.437,,Keep lane since the aisle is clear since there is no lead obstacle,
+142,1545236091.907000,True,True,intersection,other,False,2.534,2.726,Turn left to navigate through the parking lot aisle since the path is clear,Nudge to the left since a parked vehicle encroaches into our lane ahead
+143,1545236092.906000,True,True,other,other,True,1.849,4.403,Keep lane since the path is clear ahead,"Decelerate to stop for cross‑ palm trees blocking the parking‑lot aisle ahead, leaving no clear drivable path forward af"
+144,1545236093.905000,True,True,other,other,True,1.957,2.852,Keep lane since the parking aisle is clear ahead,Nudge to the left to clear the open door of one of the parked cars ahead
+145,1545236094.904000,True,True,parking,urban,False,2.303,2.852,Stop to dPLL into a parking space due to nearby vehicles,Keep distance to the pedestrian walking by the storefront since they are walking into our path ahead
+146,1545236095.903000,True,True,unknown,other,False,4.115,2.422,,Accelerate to proceed forward since the crossing vehicle has cleared our path
+147,1545236096.902000,True,True,urban,other,False,2.398,2.528,Keep distance to the pedestrian since he is walking near our lane ahead,Keep distance to the lead vehicle since it is stopped ahead in our lane
+148,1545236097.901000,True,True,other,other,True,3.235,2.410,Yield to the cut-in vehicle since it merges into our lane ahead during 2 to 4 seconds,Keep distance to the lead vehicle since it merges into our lane ahead
+149,1545236098.900000,True,True,other,urban,False,2.862,3.494,Yield to the cut-in vehicle from the left since it is entering our lane ahead,Stop because a pedestrian is walking across our path near the curb; our turn requires yielding to ensure safety before p
+150,1545236099.900000,True,True,urban,intersection,False,2.644,2.089,Keep distance to the pedestrian since they are walking motionless near our path ahead,Turn right at the intersection since the path is clear
+151,1545236100.898000,True,True,urban,unknown,False,1.871,6.802,Stop due to a pedestrian walking in front,
+152,1545236101.898000,True,False,unknown,,False,4.077,,,
+153,1545236102.897000,True,True,urban,other,False,2.476,3.391,Stop to yield to the pedestrian since they are walking across our path ahead,"Stop because of a person standing in front of a road blocking our path, requiring us to yield before proceeding."
+154,1545236103.996000,True,True,unknown,other,False,4.082,2.298,,Stop to yield to the cut-in vehicle from the left.
+155,1545236104.995000,True,True,other,other,True,1.641,1.870,Stop because of cross traffic ahead,Remain stopped to yield to crossing traffic
+156,1545236105.994000,True,True,unknown,other,False,4.151,2.840,,Yield to the cut-in vehicle from the left since it is entering our lane ahead
+157,1545236106.993000,True,True,intersection,intersection,True,1.984,2.305,Turn left to follow the curving road ahead,Turn left to enter the main road since the path is clear
+158,1545236107.992000,True,True,urban,urban,True,2.325,2.310,Stop to keep distance to the pedestrian ahead standing at the curb,Slow down due to a pedestrian walking across the crosswalk ahead
+159,1545236108.991000,True,True,urban,intersection,False,2.698,4.257,Keep distance to the pedestrian since they are walking nearby ahead of our intended turn path,"Stop to yield to the pedestrian walking ahead of our vehicle at close range, who must clear our path before we proceed i"
+160,1545236109.991000,True,True,intersection,other,False,3.231,2.408,Stop because of the stop sign at the intersection; the vehicle should come to a complete halt before proceeding.,Adapt speed for the left curve since the lane bends left ahead
+161,1545236110.990000,True,True,other,other,True,2.158,3.204,Nudge left due to roadside barriers blocking the path ahead,Nudge left to increase clearance to the stopped sign and barricades blocking the right side of the lane ahead
+162,1545236111.988000,True,True,other,intersection,False,2.903,2.369,Slow down for the stop sign ahead since you need to come to a complete stop before proceeding,Turn left at the intersection since the stop sign controls the junction ahead
+163,1545236112.988000,True,True,unknown,intersection,False,4.091,2.156,,Turn left at the intersection after stopping for the stop sign
+164,1545236113.987000,True,True,other,other,True,2.483,2.304,Keep distance to the lead vehicle since it is stopped ahead in our path,Yield due to a vehicle approaching from the left side street
+165,1545236114.985000,True,True,other,intersection,False,1.745,1.985,Stop due to the stop sign ahead,Stop for the stop sign ahead at the intersection
+166,1545236115.985000,True,True,unknown,urban,False,4.082,2.417,,Yield to the pedestrian since they are walking across our lane ahead
+167,1545236116.984000,True,True,unknown,urban,False,4.067,2.513,,Yield to the pedestrian since the person is crossing ahead in our lane
+168,1545236117.983000,True,True,urban,urban,True,2.173,2.619,Stop to yield to the pedestrian crossing the road ahead.,Yield to the pedestrian since a person is walking across the crosswalk ahead
+169,1545236118.982000,True,True,other,intersection,False,2.164,1.970,Accelerate to proceed since the crossing vehicle has cleared ahead,Stop due to the stop sign at the intersection
+170,1545236119.981000,True,True,intersection,other,False,1.954,1.755,Stop due to the stop sign controlling the intersection,Stop due to the stop sign ahead
+171,1545236120.980000,True,True,unknown,intersection,False,4.082,2.819,,Slow down to stop for the stop sign ahead since the upcoming intersection is stop controlled.
+172,1545236121.979000,True,True,other,other,True,1.845,1.655,Keep lane since no critical agent requires attention,Stop for the stop sign ahead
+173,1545236122.978000,True,True,urban,unknown,False,3.121,2.405,Yield to the pedestrian since Positions system have Probably providing enhanced clearance by housing stationary in front,
+174,1545236123.977000,True,True,unknown,urban,False,2.268,2.307,,Yield due to a pedestrian walking across the crosswalk ahead
+175,1545236124.977000,True,True,urban,urban,True,2.363,3.161,Yield to the pedestrian crossing ahead since they are blocking our lane,Stop to yield to the pedestrian crossing ahead since they are walking across our path in front of the vehicle
+176,1545236125.976000,True,True,urban,urban,True,2.479,2.205,Yield to the pedestrian since they are crossing in front of our vehicle,Yield due to a pedestrian in the crosswalk ahead
+177,1545236126.974000,True,True,urban,urban,True,2.053,2.730,Yield due to the pedestrian in the crosswalk,Yield to the pedestrian in the crosswalk since they are crossing our lane ahead
+178,1545236127.974000,True,True,urban,unknown,False,2.376,7.586,Keep distance to the pedestrian since they are walking into our lane ahead,
+179,1545236128.973000,True,False,other,,False,2.258,,Keep lane since the lane is clear with no lead vehicle ahead,
+180,1545236129.972000,True,True,intersection,other,False,2.379,4.032,Slow down for the roundabout since a yield-controlled entry is ahead,Slow down for the starting severe parking Challenge 12 désormais 12 CVS speed limit and critical maneuvering Leftward Ro
+181,1545236130.971000,True,True,other,intersection,False,2.797,2.527,Yield to the cut-in vehicle from the left since it is entering our lane ahead,Turn right to follow the curving road since the lane bends right ahead
+182,1545236131.970000,True,True,unknown,unknown,True,4.084,7.589,,
+183,1545236132.969000,True,False,intersection,,False,2.265,,Turn left in the parking aisle since the pedestrian has cleared ahead,
+184,1545236133.968000,True,True,urban,urban,True,2.472,2.956,Keep distance to the pedestrian since they are walking close to our path ahead,Keep distance to the pedestrian walking with a stroller since they are walking close barricades ahead
+185,1545236134.967000,True,True,urban,unknown,False,2.369,7.607,Keep distance to the pedestrian ahead since they are walking in our path,
+186,1545236135.966000,True,False,other,,False,2.524,,indicativeate a backward left turn due to parked cars blocking the forward path,
+187,1545236136.966000,True,True,urban,urban,True,2.475,4.244,Keep distance from the pedestrian walking ahead since he is walking in our lane,"Lane change to the left due to pedestrians standing close to the right side of the travel aisle, then match speed with l"
+188,1545236137.965000,True,True,urban,unknown,False,2.367,1.663,Keep distance to the pedestrian since it is walking near our lane ahead,
+189,1545236138.963000,True,True,other,urban,False,3.000,2.417,Nudge to the left to increase clearance to the person standing by an open car door ahead.,Keep distance to the pedestrian since they are walking across our lane ahead
+190,1545236139.963000,True,True,urban,other,False,2.474,2.420,Slow down to maintain a safe distance from the pedestrian blocking the lane ahead,Adapt speed for the right curve since the lane bends right ahead
+191,1545236140.962000,True,True,unknown,unknown,True,4.073,3.265,,
+192,1545236141.961000,True,True,intersection,intersection,True,2.159,6.074,Turn right into the parking lot since the driveway is clear,"Stop to yield to the pedestrian walking across our lane ahead, blocking our path Each-way as we come to a halt in our pa"
+193,1545236142.960000,True,False,urban,,False,2.483,,Keep distance to the pedestrians since they are walking close to our path ahead,
+194,1545236143.959000,True,True,urban,intersection,False,2.157,2.413,Stop to yield to the pedestrian walking across our path.,Turn right to enter a parking spot since no critical agent needs attention
+195,1545236144.958000,True,True,urban,urban,True,2.370,2.951,Keep distance to the pedestrian since they are walking across our path ahead,Keep distance to the pedestrians walking in our path since they are moving close to our path ahead
+196,1545236145.957000,True,True,intersection,other,False,2.266,2.526,Turn left to avoid the parked vehicles blocking the-hand lane ahead,Keep at the center of the lane since no critical agent affects the path
+197,1545236146.956000,True,True,parking,other,False,2.701,4.768,Keep distance to any exiting vehicle since it is entering our path in our parking lot,"Slow down and come to a stop because this is a parking-aisle where the intended path ends at stationary vehicles, requir"
+198,1545236147.955000,True,True,urban,unknown,False,3.857,5.849,"Stop because a pedestrian is walking through our intended forward path near our(rank cars, and we must yield to avoid a ",
+199,1545236148.955000,True,False,parking,,False,1.949,,Keep lane since the parking lot is clear ahead,
+200,1545236149.954000,True,True,intersection,parking,False,2.286,4.239,Turn right since the cross-traffic vehicle has cleared the area,"Stop later within the parking space due to a car crossing behind in the parking lot after making a brief right turn, ens"
+201,1545236150.952000,True,True,unknown,other,False,4.068,2.966,,Nudge to the left to clear the stop sign signage blocking the right side of our lane
+202,1545236151.952000,True,True,intersection,intersection,True,2.051,2.205,Turn right at the intersection since cross traffic has cleared,Turn right at the intersection since cross-traffic has cleared
+203,1545236152.951000,True,True,intersection,other,False,1.839,2.532,Turn right due to the T intersection ahead,Keep at the center of the lane since no critical agent needs special attention
+204,1545236153.950000,True,True,other,other,True,2.478,2.302,Nudge to the right due to debris blocking the center of our lane,Nudge right due to the stopped car blocking the lane ahead
+205,1545236154.949000,True,True,other,other,True,2.159,2.426,Stop for the red traffic light ahead since it is red,Adapt speed for the right curve since the road bends right ahead
+206,1545236155.948000,True,True,other,other,True,2.592,2.850,Keep lane since no critical agent is ahead since no vehicle obstructs our path,Yield to the cut-in vehicle from the right since it merges into our lane ahead
+207,1545236156.947000,True,True,other,intersection,False,2.194,2.201,Slow down for road curvature since the driveway bends right ahead,Turn right to proceed since parked vehicles block the movement ahead
+208,1545236157.946000,True,True,intersection,other,False,2.678,2.851,Yield to the cross-traffic since a vehicle is crossing at the intersection ahead,Yield to the cut-in vehicle from the right since it merges into our lane ahead
+209,1545236158.945000,True,True,intersection,intersection,True,2.372,4.130,Stop for the roundabout since the vehicle must yield to circulating traffic,"Brake to a stop before proceeding into the roundabout because an SUV with headlights is circulating from our right, requ"
+210,1545236159.944000,True,True,other,other,True,2.381,2.425,Adapt speed for the right curve since the lane bends right ahead,Adapt speed for the right curve since the lane bends right ahead
+211,1545236160.944000,True,True,other,intersection,False,2.500,2.203,Stop to yield to the truck crossing ahead since it is entering our lane,Turn right at the intersection since the crossing truck has passed
+212,1545236161.943000,True,True,other,urban,False,2.383,6.084,Adapt speed for the left curve since the lane bends left ahead,"Begin gently steering right to take the right turn because the crossing van has cleared our path, leaving a safe gap to "
+213,1545236162.941000,True,False,other,,False,1.966,,Stop since no critical agent needs special attention.,
+214,1545236163.941000,True,True,other,intersection,False,3.232,2.210,Nudge to the right in the same lane since a parked van is blocking the center of the lane ahead,Turn right into a parking spot since the path is clear
+215,1545236164.940000,True,True,other,intersection,False,2.428,3.066,Keep at the center of the lane since no critical agent needs attention,Turn right into the parking lot since the route bends right into a narrow entrance bordered by parked cars
+216,1545236165.939000,True,True,other,other,True,1.749,2.313,Adjust speed for the left curve ahead,Decelerate to the stop line for the stop sign ahead
+217,1545236166.938000,True,True,other,intersection,False,2.489,3.274,Keep distance to the lead vehicle since it is directly ahead in our lane,Keep distance to the lead vehicle since it is directly ahead in our lane after we turn right into the driveway
+218,1545236167.937000,True,True,intersection,other,False,2.395,2.439,Slow down for the roundabout since a stop sign controls this entry,Adapt speed for the right curve since the lane bends right ahead
+219,1545236168.939000,True,True,other,other,True,2.961,1.663,Split to the right to take the right-turn lane since a stop sign controls the turn ahead,Stop for the stop sign ahead
+220,1545236169.935000,True,True,other,other,True,2.541,1.770,Keep distance to the lead vehicle since it is directly ahead in our lane,Slow down for the speed bump ahead
+221,1545236170.934000,True,True,other,intersection,False,1.875,1.880,Stop for the stop sign controlling our lane,Stop for the stop sign controlling the intersection
+222,1545236171.933000,True,True,other,other,True,2.910,2.956,Keep distance to the lead vehicle since it is directly ahead in our lane after the left turn,Yield to the cut-in vehicle from the right since it is turning into our lane ahead
+223,1545236172.933000,True,True,unknown,other,False,4.120,5.643,,Change lane to the left due to parked/slow vehicles blocking the right edge of our enterway after the turn; accelerate o
+224,1545236173.932000,True,False,unknown,,False,4.083,,,
+225,1545236174.930000,True,True,other,intersection,False,1.960,1.882,Nudge right due to oncoming vehicle ahead,Turn right because the cross traffic has cleared
+226,1545236175.930000,True,True,other,other,True,3.865,1.666,"Brake to a stop because our forward path is blocked by stationary vehicles ahead in our lane, leaving no safe space to c",Stop for the stop sign ahead
+227,1545236176.929000,True,True,other,intersection,False,1.955,4.890,Stop due to a car crossing our path ahead,Brake to a stop because the vehicle has reached an intersection and must yield to cross traffic; several cars are visibl
+228,1545236177.928000,True,True,other,highway,False,2.380,4.776,Adapt speed for the right curve since the road bends right ahead,"Lane change to the left due to merging onto the main road after waiting for cross-traffic, then positioning away from th"
+229,1545236178.927000,True,True,unknown,other,False,4.109,2.825,,Adapt speed to maintain a safe distance from the lead vehicle since it is slowing ahead
+230,1545236179.926000,True,True,other,other,True,2.174,2.481,Keep distance to the lead vehicle since it is stopped ahead,Keep distance to the lead vehicle since it is directly ahead in our lane
+231,1545236180.925000,True,True,unknown,other,False,4.085,2.152,,Keep distance to the lead vehicle since it is stopped ahead
+232,1545236181.924000,True,True,other,other,True,2.474,2.409,Keep distance to the lead vehicle since it is directly ahead in our lane,Stop to keep distance to the lead vehicle since it is stopped ahead
+233,1545236182.923000,True,True,other,other,True,2.259,2.186,Keep distance to the lead vehicle since it is slowing ahead.,Keep distance to the lead vehicle since it is stopped ahead
+234,1545236183.922000,True,True,other,other,True,2.378,2.200,Stop to keep distance to the lead vehicle since it is stopped ahead,Keep distance to the lead vehicle since it is stopped ahead
+235,1545236184.921000,True,True,other,other,True,2.382,2.836,Stop to keep distance to the lead vehicle since it is stationary ahead,Decelerate to maintain a safe distance to the lead vehicle since it is stopped ahead
+236,1545236185.921000,True,True,other,other,True,2.378,2.528,Stop to keep distance to the lead vehicle since it is stopped ahead,Maintain a safe distance from the lead vehicle since it is stopped ahead
+237,1545236186.919000,True,True,other,other,True,2.377,2.406,Stop to keep distance to the lead vehicle since it is stationary ahead,Stop to keep distance to the lead vehicle since it is stationary ahead
+238,1545236187.919000,True,True,other,other,True,2.269,2.403,Keep distance to the lead vehicle since it is moving slowly ahead,Stop to keep distance to the lead vehicle since it is stationary ahead
+239,1545236188.918000,True,True,unknown,other,False,4.079,2.158,,Keep distance to the lead vehicle since it is stopped ahead
+240,1545236189.917000,True,True,other,other,True,2.399,2.156,Stop to keep distance to the lead vehicle since it is stationary ahead,Keep distance to the lead vehicle since it is stopped ahead
+241,1545236190.916000,True,True,other,unknown,False,2.160,3.123,Keep distance to the lead vehicle since it is stopped ahead,
+242,1545236191.915000,True,True,other,other,True,1.945,2.061,Stop to keep distance to the stopped lead vehicle,1ain stop due to the stationary lead vehicle ahead
+243,1545236192.914000,True,True,other,other,True,2.161,1.847,Keep distance to the lead vehicle since it is stopped ahead,Stop to keep distance to the lead vehicle
+244,1545236193.913000,True,True,other,other,True,2.172,2.167,Keep distance to the lead vehicle since it is stopped ahead,Keep distance to the lead vehicle since it is stopped ahead
+245,1545236194.912000,True,True,other,other,True,2.427,2.397,Stop to keep distance to the lead vehicle since it is stationary ahead,Stop to keep distance to the lead vehicle since it is stationary ahead
+246,1545236195.911000,True,True,other,other,True,1.984,2.706,Stop due to lead vehicle blocking the lane ahead,types of vehicles are in front since a truck is leading one slightly to the left
+247,1545236196.910000,True,True,other,other,True,2.425,2.071,Stop to keep distance to the lead vehicle since it is stopped ahead,Stop to keep distance to the stopped lead vehicle ahead
+248,1545236197.910000,True,True,other,other,True,3.625,2.050,Wait for a gap because a car is coming from rear right in the right lane blocking an immediate merge to the right lane,Stop to keep distance to the stopped lead vehicle ahead
+249,1545236198.908000,True,True,other,other,True,1.944,1.844,Stop to keep distance to the stopped lead vehicle,Stop to keep distance to the lead vehicle
+250,1545236199.908000,True,True,other,other,True,2.061,2.365,Stop to keep distance to the stopped lead vehicle ahead,Stop to keep distance to the lead vehicle since it is stationary ahead
+251,1545236200.907000,True,True,other,other,True,2.377,2.158,Stop to keep distance to the lead vehicle since it is stationary ahead,Keep distance to the lead vehicle since it is stopped ahead
+252,1545236201.905000,True,True,other,other,True,2.371,1.833,Stop to keep distance to the lead vehicle since it is stationary ahead,Stop to keep distance to the lead vehicle
+253,1545236202.905000,True,True,other,other,True,2.377,2.372,Stop to keep distance to the lead vehicle since it is stationary ahead,Stop to keep distance to the lead vehicle since it is stationary ahead
+254,1545236203.904000,True,True,other,other,True,2.156,2.391,Keep distance to the lead vehicle since it is stopped ahead,Stop to keep distance to the lead vehicle since it is stopped ahead
+255,1545236204.903000,True,True,other,other,True,2.176,1.955,Keep distance to the lead vehicle since it is stopped ahead,Stop to keep distance to the stationary lead vehicle
+256,1545236205.902000,True,True,other,other,True,2.164,2.378,Keep distance to the lead vehicle since it is stopped ahead,Stop to keep distance to the lead vehicle since it is stopped.
+257,1545236206.901000,True,True,other,other,True,2.423,2.394,Stop to keep distance to the lead vehicle since it is stationary ahead,Stop to keep distance to the lead vehicle since it is stationary ahead
+258,1545236207.900000,True,True,other,other,True,2.153,2.380,Keep distance to the lead vehicle since it is stopped ahead,Stop to keep distance to the lead vehicle since it is stopped ahead
+259,1545236208.899000,True,True,other,other,True,2.055,2.085,Stop to keep distance to the stationary lead vehicle ahead,Stop to keep distance to the stopped lead vehicle ahead
+260,1545236209.899000,True,True,other,other,True,1.843,2.387,Stop to keep distance to the lead vehicle,Stop to keep distance to the lead vehicle since it is stationary ahead
+261,1545236210.897000,False,True,,other,False,,2.373,,Stop to keep distance to the lead vehicle since it is stationary ahead
+262,1545236210.998000,True,False,other,,False,2.162,,Keep distance to the lead vehicle since it is stopped ahead,

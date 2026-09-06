@@ -1,0 +1,2285 @@
+[sequencer] Restarted Wed Aug 19 11:02:12 PM EDT 2026
+[sequencer] Step 2: chunk_0251, Alpamayo 2 Super...
+[sequencer] Step 2: chunk_0251, Alpamayo 2 Super...
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Filtered to chunk_0251: 60 entries
+Total entries to run: 60
+Models: 2 Super
+
+Loading Alpamayo 2 Super (/home/loki/models/Alpamayo2-Super)...
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Filtered to chunk_0251: 60 entries
+Total entries to run: 60
+Models: 2 Super
+
+Loading Alpamayo 2 Super (/home/loki/models/Alpamayo2-Super)...
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:04<00:56,  4.03s/it]Loading checkpoint shards:   7%|▋         | 1/15 [00:04<00:56,  4.03s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:08<00:55,  4.25s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:08<00:55,  4.25s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:12<00:52,  4.37s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:12<00:52,  4.37s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:17<00:49,  4.47s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:17<00:49,  4.47s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:22<00:44,  4.49s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:22<00:44,  4.49s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:26<00:40,  4.51s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:26<00:40,  4.51s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:31<00:36,  4.50s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:31<00:36,  4.50s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:35<00:31,  4.57s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:35<00:31,  4.57s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:40<00:28,  4.72s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:40<00:28,  4.72s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:46<00:24,  4.92s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:46<00:24,  4.92s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:51<00:20,  5.03s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:51<00:20,  5.03s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:56<00:15,  5.04s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:56<00:15,  5.04s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:01<00:10,  5.12s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:01<00:10,  5.12s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:08<00:05,  5.42s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:08<00:05,  5.42s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:12<00:00,  5.14s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:12<00:00,  5.14s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:12<00:00,  4.83s/it]
+Loading checkpoint shards: 100%|██████████| 15/15 [01:12<00:00,  4.83s/it]
+Alpamayo 2 ready.
+
+[1/60] clip=5fa56c61  t0=5.1s
+  v2: 22.93s  prefill=4580  [Decelerate to a stop due to the lead vehicle blocking the la]
+  → written to CSV (1 rows so far)
+
+[2/60] clip=5fa56c61  t0=6.1s
+  v2: 17.72s  prefill=4580  [Slow down due to a stopped garbage truck blocking the lane]
+  → written to CSV (2 rows so far)
+
+[3/60] clip=5fa56c61  t0=7.1s
+  v2: 19.13s  prefill=4580  [Slow to a stop due to the lead vehicle blocking the lane.]
+  → written to CSV (3 rows so far)
+
+[4/60] clip=5fa56c61  t0=8.1s
+  v2: 17.41s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (4 rows so far)
+
+[5/60] clip=5fa56c61  t0=9.1s
+  v2: 18.91s  prefill=4580  [Yield due to a worker standing behind the truck blocking the]
+  → written to CSV (5 rows so far)
+
+[6/60] clip=5fa56c61  t0=10.1s
+  v2: 17.85s  prefill=4580  [Yield due to the worker standing in the lane ahead]
+  → written to CSV (6 rows so far)
+
+[7/60] clip=5fa56c61  t0=11.1s
+  v2: 18.03s  prefill=4580  [Yield due to a worker standing in the lane ahead]
+  → written to CSV (7 rows so far)
+
+[8/60] clip=5fa56c61  t0=12.1s
+  v2: 14.74s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (8 rows so far)
+
+[9/60] clip=5fa56c61  t0=13.1s
+  v2: 17.27s  prefill=4580  [Yield due to a worker in the lane ahead.]
+  → written to CSV (9 rows so far)
+
+[10/60] clip=5fa56c61  t0=14.1s
+  v2: 16.85s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (10 rows so far)
+
+[11/60] clip=5fa56c61  t0=15.1s
+  v2: 16.67s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (11 rows so far)
+
+[12/60] clip=5fa56c61  t0=16.1s
+  v2: 18.53s  prefill=4580  [Stop due to a stopped lead vehicle blocking the lane.]
+  → written to CSV (12 rows so far)
+
+[13/60] clip=5fa56c61  t0=17.1s
+  v2: 17.18s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (13 rows so far)
+
+[14/60] clip=5fa56c61  t0=18.1s
+  v2: 17.66s  prefill=4580  [Stop due to the stopped lead vehicle blocking the lane.]
+  → written to CSV (14 rows so far)
+
+[15/60] clip=5fa56c61  t0=19.1s
+  v2: 16.51s  prefill=4580  [Yield due to workers blocking the lane ahead]
+  → written to CSV (15 rows so far)
+
+[16/60] clip=e0772c6e  t0=5.1s
+  v2: 16.81s  prefill=4580  [Slow down due to the work zone speed limit ahead]
+  → written to CSV (16 rows so far)
+
+[17/60] clip=e0772c6e  t0=6.1s
+  v2: 17.36s  prefill=4580  [Slow down due to lane narrowing at the construction zone ahe]
+  → written to CSV (17 rows so far)
+
+[18/60] clip=e0772c6e  t0=7.1s
+  v2: 17.39s  prefill=4580  [Slow down due to a lane narrowing from roadwork ahead]
+  → written to CSV (18 rows so far)
+
+[19/60] clip=e0772c6e  t0=8.1s
+  v2: 16.88s  prefill=4580  [Slow down due to lane narrowing from road construction ahead]
+  → written to CSV (19 rows so far)
+
+[20/60] clip=e0772c6e  t0=9.1s
+  v2: 18.78s  prefill=4580  [Adapt speed for the narrow construction lane because roadsid]
+  → written to CSV (20 rows so far)
+
+[21/60] clip=e0772c6e  t0=10.1s
+  v2: 17.43s  prefill=4580  [Keep at the center of the lane to continue driving.]
+  → written to CSV (21 rows so far)
+
+[22/60] clip=e0772c6e  t0=11.1s
+  v2: 15.15s  prefill=4580  [Slow down due to speed bumps ahead]
+  → written to CSV (22 rows so far)
+
+[23/60] clip=e0772c6e  t0=12.1s
+  v2: 16.66s  prefill=4580  [Nudge left to avoid the construction barrier on the right si]
+  → written to CSV (23 rows so far)
+
+[24/60] clip=e0772c6e  t0=13.1s
+  v2: 14.62s  prefill=4580  [Nudge left to pass the dumpster obstructing the lane.]
+  → written to CSV (24 rows so far)
+
+[25/60] clip=e0772c6e  t0=14.1s
+  v2: 14.79s  prefill=4580  [Nudge left to pass the dumpster blocking part of the lane.]
+  → written to CSV (25 rows so far)
+
+[26/60] clip=e0772c6e  t0=15.1s
+  v2: 12.18s  prefill=4580  [Slow down due to speed bumps ahead]
+  → written to CSV (26 rows so far)
+
+[27/60] clip=e0772c6e  t0=16.1s
+  v2: 12.72s  prefill=4580  [Maintain low speed due to lane narrowing from construction b]
+  → written to CSV (27 rows so far)
+
+[28/60] clip=e0772c6e  t0=17.1s
+  v2: 12.10s  prefill=4580  [Slow down due to lane narrowing from construction barriers a]
+  → written to CSV (28 rows so far)
+
+[29/60] clip=e0772c6e  t0=18.1s
+  v2: 11.98s  prefill=4580  [Slow down due to barricades narrowing the lane ahead]
+  → written to CSV (29 rows so far)
+
+[30/60] clip=e0772c6e  t0=19.1s
+  v2: 13.05s  prefill=4580  [Nudge left to avoid the construction barriers intruding into]
+  → written to CSV (30 rows so far)
+
+[31/60] clip=594d2c54  t0=5.1s
+  v2: 11.10s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (31 rows so far)
+
+[32/60] clip=594d2c54  t0=6.1s
+  v2: 11.77s  prefill=4580  [Stop due to red traffic light at the intersection]
+  → written to CSV (32 rows so far)
+
+[33/60] clip=594d2c54  t0=7.1s
+  v2: 10.88s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (33 rows so far)
+
+[34/60] clip=594d2c54  t0=8.1s
+  v2: 10.92s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (34 rows so far)
+
+[35/60] clip=594d2c54  t0=9.1s
+  v2: 10.97s  prefill=4580  [Stop for the red traffic light.]
+  → written to CSV (35 rows so far)
+
+[36/60] clip=594d2c54  t0=10.1s
+  v2: 12.41s  prefill=4580  [Stop at the stop line because the traffic light is red.]
+  → written to CSV (36 rows so far)
+
+[37/60] clip=594d2c54  t0=11.1s
+  v2: 10.51s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (37 rows so far)
+
+[38/60] clip=594d2c54  t0=12.1s
+  v2: 10.63s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (38 rows so far)
+
+[39/60] clip=594d2c54  t0=13.1s
+  v2: 10.95s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (39 rows so far)
+
+[40/60] clip=594d2c54  t0=14.1s
+  v2: 10.60s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (40 rows so far)
+
+[41/60] clip=594d2c54  t0=15.1s
+  v2: 11.05s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (41 rows so far)
+
+[42/60] clip=594d2c54  t0=16.1s
+  v2: 10.67s  prefill=4580  [Stop because of red traffic light.]
+  → written to CSV (42 rows so far)
+
+[43/60] clip=594d2c54  t0=17.1s
+  v2: 10.91s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (43 rows so far)
+
+[44/60] clip=594d2c54  t0=18.1s
+  v2: 10.76s  prefill=4580  [Stop because of red traffic light.]
+  → written to CSV (44 rows so far)
+
+[45/60] clip=594d2c54  t0=19.1s
+  v2: 11.29s  prefill=4580  [Stop because of red traffic light ahead.]
+  → written to CSV (45 rows so far)
+
+[46/60] clip=4f7b34b6  t0=5.1s
+  v2: 13.50s  prefill=4580  [Accelerate to proceed through the intersection since the str]
+  → written to CSV (46 rows so far)
+
+[47/60] clip=4f7b34b6  t0=6.1s
+  v2: 12.30s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (47 rows so far)
+
+[48/60] clip=4f7b34b6  t0=7.1s
+  v2: 12.48s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (48 rows so far)
+
+[49/60] clip=4f7b34b6  t0=8.1s
+  v2: 14.19s  prefill=4580  [Keep at the center of the lane to continue driving. No criti]
+  → written to CSV (49 rows so far)
+
+[50/60] clip=4f7b34b6  t0=9.1s
+  v2: 11.37s  prefill=4580  [Keep lane because the lane ahead is clear.]
+  → written to CSV (50 rows so far)
+
+[51/60] clip=4f7b34b6  t0=10.1s
+  v2: 10.91s  prefill=4580  [Maintain speed due to clear lane ahead]
+  → written to CSV (51 rows so far)
+
+[52/60] clip=4f7b34b6  t0=11.1s
+  v2: 11.40s  prefill=4580  [Keep lane because the lane ahead is clear.]
+  → written to CSV (52 rows so far)
+
+[53/60] clip=4f7b34b6  t0=12.1s
+  v2: 14.43s  prefill=4580  [Keep at the center of the lane to continue driving since no ]
+  → written to CSV (53 rows so far)
+
+[54/60] clip=4f7b34b6  t0=13.1s
+  v2: 12.98s  prefill=4580  [Keep at the center of the lane because no immediate obstacle]
+  → written to CSV (54 rows so far)
+
+[55/60] clip=4f7b34b6  t0=14.1s
+  v2: 12.12s  prefill=4580  [Keep distance to the lead vehicle because traffic ahead slow]
+  → written to CSV (55 rows so Alpamayo 2 ready.
+
+[1/60] clip=5fa56c61  t0=5.1s
+  v2: 22.93s  prefill=4580  [Decelerate to a stop due to the lead vehicle blocking the la]
+  → written to CSV (1 rows so far)
+
+[2/60] clip=5fa56c61  t0=6.1s
+  v2: 17.72s  prefill=4580  [Slow down due to a stopped garbage truck blocking the lane]
+  → written to CSV (2 rows so far)
+
+[3/60] clip=5fa56c61  t0=7.1s
+  v2: 19.13s  prefill=4580  [Slow to a stop due to the lead vehicle blocking the lane.]
+  → written to CSV (3 rows so far)
+
+[4/60] clip=5fa56c61  t0=8.1s
+  v2: 17.41s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (4 rows so far)
+
+[5/60] clip=5fa56c61  t0=9.1s
+  v2: 18.91s  prefill=4580  [Yield due to a worker standing behind the truck blocking the]
+  → written to CSV (5 rows so far)
+
+[6/60] clip=5fa56c61  t0=10.1s
+  v2: 17.85s  prefill=4580  [Yield due to the worker standing in the lane ahead]
+  → written to CSV (6 rows so far)
+
+[7/60] clip=5fa56c61  t0=11.1s
+  v2: 18.03s  prefill=4580  [Yield due to a worker standing in the lane ahead]
+  → written to CSV (7 rows so far)
+
+[8/60] clip=5fa56c61  t0=12.1s
+  v2: 14.74s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (8 rows so far)
+
+[9/60] clip=5fa56c61  t0=13.1s
+  v2: 17.27s  prefill=4580  [Yield due to a worker in the lane ahead.]
+  → written to CSV (9 rows so far)
+
+[10/60] clip=5fa56c61  t0=14.1s
+  v2: 16.85s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (10 rows so far)
+
+[11/60] clip=5fa56c61  t0=15.1s
+  v2: 16.67s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (11 rows so far)
+
+[12/60] clip=5fa56c61  t0=16.1s
+  v2: 18.53s  prefill=4580  [Stop due to a stopped lead vehicle blocking the lane.]
+  → written to CSV (12 rows so far)
+
+[13/60] clip=5fa56c61  t0=17.1s
+  v2: 17.18s  prefill=4580  [Yield due to a worker blocking the lane ahead]
+  → written to CSV (13 rows so far)
+
+[14/60] clip=5fa56c61  t0=18.1s
+  v2: 17.66s  prefill=4580  [Stop due to the stopped lead vehicle blocking the lane.]
+  → written to CSV (14 rows so far)
+
+[15/60] clip=5fa56c61  t0=19.1s
+  v2: 16.51s  prefill=4580  [Yield due to workers blocking the lane ahead]
+  → written to CSV (15 rows so far)
+
+[16/60] clip=e0772c6e  t0=5.1s
+  v2: 16.81s  prefill=4580  [Slow down due to the work zone speed limit ahead]
+  → written to CSV (16 rows so far)
+
+[17/60] clip=e0772c6e  t0=6.1s
+  v2: 17.36s  prefill=4580  [Slow down due to lane narrowing at the construction zone ahe]
+  → written to CSV (17 rows so far)
+
+[18/60] clip=e0772c6e  t0=7.1s
+  v2: 17.39s  prefill=4580  [Slow down due to a lane narrowing from roadwork ahead]
+  → written to CSV (18 rows so far)
+
+[19/60] clip=e0772c6e  t0=8.1s
+  v2: 16.88s  prefill=4580  [Slow down due to lane narrowing from road construction ahead]
+  → written to CSV (19 rows so far)
+
+[20/60] clip=e0772c6e  t0=9.1s
+  v2: 18.78s  prefill=4580  [Adapt speed for the narrow construction lane because roadsid]
+  → written to CSV (20 rows so far)
+
+[21/60] clip=e0772c6e  t0=10.1s
+  v2: 17.43s  prefill=4580  [Keep at the center of the lane to continue driving.]
+  → written to CSV (21 rows so far)
+
+[22/60] clip=e0772c6e  t0=11.1s
+  v2: 15.15s  prefill=4580  [Slow down due to speed bumps ahead]
+  → written to CSV (22 rows so far)
+
+[23/60] clip=e0772c6e  t0=12.1s
+  v2: 16.66s  prefill=4580  [Nudge left to avoid the construction barrier on the right si]
+  → written to CSV (23 rows so far)
+
+[24/60] clip=e0772c6e  t0=13.1s
+  v2: 14.62s  prefill=4580  [Nudge left to pass the dumpster obstructing the lane.]
+  → written to CSV (24 rows so far)
+
+[25/60] clip=e0772c6e  t0=14.1s
+  v2: 14.79s  prefill=4580  [Nudge left to pass the dumpster blocking part of the lane.]
+  → written to CSV (25 rows so far)
+
+[26/60] clip=e0772c6e  t0=15.1s
+  v2: 12.18s  prefill=4580  [Slow down due to speed bumps ahead]
+  → written to CSV (26 rows so far)
+
+[27/60] clip=e0772c6e  t0=16.1s
+  v2: 12.72s  prefill=4580  [Maintain low speed due to lane narrowing from construction b]
+  → written to CSV (27 rows so far)
+
+[28/60] clip=e0772c6e  t0=17.1s
+  v2: 12.10s  prefill=4580  [Slow down due to lane narrowing from construction barriers a]
+  → written to CSV (28 rows so far)
+
+[29/60] clip=e0772c6e  t0=18.1s
+  v2: 11.98s  prefill=4580  [Slow down due to barricades narrowing the lane ahead]
+  → written to CSV (29 rows so far)
+
+[30/60] clip=e0772c6e  t0=19.1s
+  v2: 13.05s  prefill=4580  [Nudge left to avoid the construction barriers intruding into]
+  → written to CSV (30 rows so far)
+
+[31/60] clip=594d2c54  t0=5.1s
+  v2: 11.10s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (31 rows so far)
+
+[32/60] clip=594d2c54  t0=6.1s
+  v2: 11.77s  prefill=4580  [Stop due to red traffic light at the intersection]
+  → written to CSV (32 rows so far)
+
+[33/60] clip=594d2c54  t0=7.1s
+  v2: 10.88s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (33 rows so far)
+
+[34/60] clip=594d2c54  t0=8.1s
+  v2: 10.92s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (34 rows so far)
+
+[35/60] clip=594d2c54  t0=9.1s
+  v2: 10.97s  prefill=4580  [Stop for the red traffic light.]
+  → written to CSV (35 rows so far)
+
+[36/60] clip=594d2c54  t0=10.1s
+  v2: 12.41s  prefill=4580  [Stop at the stop line because the traffic light is red.]
+  → written to CSV (36 rows so far)
+
+[37/60] clip=594d2c54  t0=11.1s
+  v2: 10.51s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (37 rows so far)
+
+[38/60] clip=594d2c54  t0=12.1s
+  v2: 10.63s  prefill=4580  [Stop because of red traffic light]
+  → written to CSV (38 rows so far)
+
+[39/60] clip=594d2c54  t0=13.1s
+  v2: 10.95s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (39 rows so far)
+
+[40/60] clip=594d2c54  t0=14.1s
+  v2: 10.60s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (40 rows so far)
+
+[41/60] clip=594d2c54  t0=15.1s
+  v2: 11.05s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (41 rows so far)
+
+[42/60] clip=594d2c54  t0=16.1s
+  v2: 10.67s  prefill=4580  [Stop because of red traffic light.]
+  → written to CSV (42 rows so far)
+
+[43/60] clip=594d2c54  t0=17.1s
+  v2: 10.91s  prefill=4580  [Stop due to red traffic light.]
+  → written to CSV (43 rows so far)
+
+[44/60] clip=594d2c54  t0=18.1s
+  v2: 10.76s  prefill=4580  [Stop because of red traffic light.]
+  → written to CSV (44 rows so far)
+
+[45/60] clip=594d2c54  t0=19.1s
+  v2: 11.29s  prefill=4580  [Stop because of red traffic light ahead.]
+  → written to CSV (45 rows so far)
+
+[46/60] clip=4f7b34b6  t0=5.1s
+  v2: 13.50s  prefill=4580  [Accelerate to proceed through the intersection since the str]
+  → written to CSV (46 rows so far)
+
+[47/60] clip=4f7b34b6  t0=6.1s
+  v2: 12.30s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (47 rows so far)
+
+[48/60] clip=4f7b34b6  t0=7.1s
+  v2: 12.48s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (48 rows so far)
+
+[49/60] clip=4f7b34b6  t0=8.1s
+  v2: 14.19s  prefill=4580  [Keep at the center of the lane to continue driving. No criti]
+  → written to CSV (49 rows so far)
+
+[50/60] clip=4f7b34b6  t0=9.1s
+  v2: 11.37s  prefill=4580  [Keep lane because the lane ahead is clear.]
+  → written to CSV (50 rows so far)
+
+[51/60] clip=4f7b34b6  t0=10.1s
+  v2: 10.91s  prefill=4580  [Maintain speed due to clear lane ahead]
+  → written to CSV (51 rows so far)
+
+[52/60] clip=4f7b34b6  t0=11.1s
+  v2: 11.40s  prefill=4580  [Keep lane because the lane ahead is clear.]
+  → written to CSV (52 rows so far)
+
+[53/60] clip=4f7b34b6  t0=12.1s
+  v2: 14.43s  prefill=4580  [Keep at the center of the lane to continue driving since no ]
+  → written to CSV (53 rows so far)
+
+[54/60] clip=4f7b34b6  t0=13.1s
+  v2: 12.98s  prefill=4580  [Keep at the center of the lane because no immediate obstacle]
+  → written to CSV (54 rows so far)
+
+[55/60] clip=4f7b34b6  t0=14.1s
+  v2: 12.12s  prefill=4580  [Keep distance to the lead vehicle because traffic ahead slow]
+  → written to CSV (55 rows so far)far)
+
+[56/60] clip=4f7b34b6  t0=15.1s
+  v2: 12.02s  prefill=4580  [Maintain a safe distance from the lead vehicle ahead.]
+  → written to CSV (56 rows so far)
+
+[57/60] clip=4f7b34b6  t0=16.1s
+  v2: 12.69s  prefill=4580  [Decelerate to maintain a safe distance from the lead vehicle]
+  → written to CSV (57 rows so far)
+
+[58/60] clip=4f7b34b6  t0=17.1s
+  v2: 12.65s  prefill=4580  [Decelerate to maintain a safe distance from the lead vehicle]
+  → written to CSV (58 rows so far)
+
+[59/60] clip=4f7b34b6  t0=18.1s
+  v2: 11.86s  prefill=4580  [Keep distance to the lead vehicle because it slows ahead.]
+  → written to CSV (59 rows so far)
+
+[60/60] clip=4f7b34b6  t0=19.1s
+  v2: 13.16s  prefill=4580  [Decelerate to maintain a safe distance from the lead vehicle]
+  → written to CSV (60 rows so far)
+
+Done. 60 rows → /home/aymen/Documents/alpamayo-autoware/logs/compare_1_5_vs_2.csv
+
+=== SUMMARY (all 120 rows in CSV) ===
+                                      1.5    2 Super
+Mean ADE (m)                       19.127     19.124
+Mean FDE (m)                       67.106     67.210
+Mean duration (s)                   2.351      7.073
+Mean prefill tokens              1536.500   2290.000
+Mean generated tokens               7.333        N/A
+
+
+[56/60] clip=4f7b34b6  t0=15.1s
+  v2: 12.02s  prefill=4580  [Maintain a safe distance from the lead vehicle ahead.]
+  → written to CSV (56 rows so far)
+
+[57/60] clip=4f7b34b6  t0=16.1s
+  v2: 12.69s  prefill=4580  [Decelerate to maintain a safe distance from the lead vehicle]
+  → written to CSV (57 rows so far)
+
+[58/60] clip=4f7b34b6  t0=17.1s
+  v2: 12.65s  prefill=4580  [Decelerate to maintain a safe distance from the lead vehicle]
+  → written to CSV (58 rows so far)
+
+[59/60] clip=4f7b34b6  t0=18.1s
+  v2: 11.86s  prefill=4580  [Keep distance to the lead vehicle because it slows ahead.]
+  → written to CSV (59 rows so far)
+
+[60/60] clip=4f7b34b6  t0=19.1s
+  v2: 13.16s  prefill=4580  [Decelerate to maintain a safe distance from the lead vehicle]
+  → written to CSV (60 rows so far)
+
+Done. 60 rows → /home/aymen/Documents/alpamayo-autoware/logs/compare_1_5_vs_2.csv
+
+=== SUMMARY (all 120 rows in CSV) ===
+                                      1.5    2 Super
+Mean ADE (m)                       19.127     19.124
+Mean FDE (m)                       67.106     67.210
+Mean duration (s)                   2.351      7.073
+Mean prefill tokens              1536.500   2290.000
+Mean generated tokens               7.333        N/A
+[sequencer] Step 2 done.
+[sequencer] Step 2 done.
+[sequencer] Step 3: chunk_0270, Alpamayo 1.5...
+[sequencer] Step 3: chunk_0270, Alpamayo 1.5...
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Filtered to chunk_0270: 105 entries
+Total entries to run: 105
+Models: 1.5 
+
+Loading Alpamayo 1.5 (nvidia/Alpamayo-1.5-10B)...
+Filtered to chunk_0270: 105 entries
+Total entries to run: 105
+Models: 1.5 
+
+Loading Alpamayo 1.5 (nvidia/Alpamayo-1.5-10B)...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:00<00:00, 22.48it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:00<00:00, 22.48it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 18.70it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:00<00:00, 18.70it/s]
+
+No <traj_future_start> token found in generated sequences for sequence 0
+No <traj_future_start> token found in generated sequences for sequence 0
+No <traj_future_start> token found in generated sequences for sequence 0
+No <traj_future_start> token found in generated sequences for sequence 0
+Alpamayo 1.5 ready.
+
+[1/105] clip=40a11a64  t0=5.1s
+  1.5: 4.99s  prefill=3073  gen=11  [Match speed due to the lead vehicle ahead]
+  → written to CSV (1 rows so far)
+
+[2/105] clip=40a11a64  t0=6.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Stop to yield to pedestrians walking across the crosswalk ah]
+  → written to CSV (2 rows so far)
+
+[3/105] clip=40a11a64  t0=7.1s
+  1.5: 10.48s  prefill=3073  gen=64  []
+  → written to CSV (3 rows so far)
+
+[4/105] clip=40a11a64  t0=8.1s
+  1.5: 7.46s  prefill=3073  gen=38  [Stop to yield to the pedestrians crossing into our lane ahea]
+  → written to CSV (4 rows so far)
+
+[5/105] clip=40a11a64  t0=9.1s
+  1.5: 4.41s  prefill=3073  gen=12  [Yield to a pedestrian in the crosswalk]
+  → written to CSV (5 rows so far)
+
+[6/105] clip=40a11a64  t0=10.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Yield by slowing due to pedestrians in the crosswalk]
+  → written to CSV (6 rows so far)
+
+[7/105] clip=40a11a64  t0=11.1s
+  1.5: 4.77s  prefill=3073  gen=15  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (7 rows so far)
+
+[8/105] clip=40a11a64  t0=12.1s
+  1.5: 4.62s  prefill=3073  gen=14  [Stop to yield to the pedestrians in the crosswalk ahead]
+  → written to CSV (8 rows so far)
+
+[9/105] clip=40a11a64  t0=13.1s
+  1.5: 6.28s  prefill=3073  gen=28  [Yield to the pedestrian crossing our lane in front since a p]
+  → written to CSV (9 rows so far)
+
+[10/105] clip=40a11a64  t0=14.1s
+  1.5: 5.00s  prefill=3073  gen=17  [Stop to yield to the pedestrian since they are crossing ahea]
+  → written to CSV (10 rows so far)
+
+[11/105] clip=40a11a64  t0=15.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Yield due to a pedestrian walking across the road ahead]
+  → written to CSV (11 rows so far)
+
+[12/105] clip=40a11a64  t0=16.1s
+  1.5: 5.02s  prefill=3073  gen=17  [Keep distance to the cut-in scooter since it merges into our]
+  → written to CSV (12 rows so far)
+
+[13/105] clip=40a11a64  t0=17.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance from the lead van since it is directly ahead i]
+  → written to CSV (13 rows so far)
+
+[14/105] clip=40a11a64  t0=18.1s
+  1.5: 5.12s  prefill=3073  gen=18  [Nudge left due to the stopped van blocking the right side of]
+  → written to CSV (14 rows so far)
+
+[15/105] clip=40a11a64  t0=19.1s
+  1.5: 4.98s  prefill=3073  gen=17  [Nudge left due to the van blocking the right side of our lan]
+  → written to CSV (15 rows so far)
+
+[16/105] clip=1de484ec  t0=5.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Keep distance to the lead vehicle since it is slowing ahead]
+  → written to CSV (16 rows so far)
+
+[17/105] clip=1de484ec  t0=6.1s
+  1.5: 4.87s  prefill=3073  gen=16  [Slow down to maintain a safe gap behind the stopped lead veh]
+  → written to CSV (17 rows so far)
+
+[18/105] clip=1de484ec  t0=7.1s
+  1.5: 4.76s  prefill=3073  gen=15  [Stop to keep distance to the lead vehicle blocking the lane ]
+  → written to CSV (18 rows so far)
+
+[19/105] clip=1de484ec  t0=8.1s
+  1.5: 5.12s  prefill=3073  gen=18  [Yield to the pedestrian since a person is walking across the]
+  → written to CSV (19 rows so far)
+
+[20/105] clip=1de484ec  t0=9.1s
+  1.5: 4.41s  prefill=3073  gen=12  [Yield to the pedestrian exiting the vehicle ahead]
+  → written to CSV (20 rows so far)
+
+[21/105] clip=1de484ec  t0=10.1s
+  1.5: 4.86s  prefill=3073  gen=16  [Yield due to the person exiting the vehicle ahead blocking t]
+  → written to CSV (21 rows so far)
+
+[22/105] clip=1de484ec  t0=11.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Yield due to the stopped lead vehicle blocking our lane]
+  → written to CSV (22 rows so far)
+
+[23/105] clip=1de484ec  t0=12.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Keep distance to the lead vehicle since it is moving slowly ]
+  → written to CSV (23 rows so far)
+
+[24/105] clip=1de484ec  t0=13.1s
+  1.5: 4.42s  prefill=3073  gen=12  [Yield to the pedestrian entering our lane ahead]
+  → written to CSV (24 rows so far)
+
+[25/105] clip=1de484ec  t0=14.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance to the lead vehicle since it is directly ahead]
+  → written to CSV (25 rows so far)
+
+[26/105] clip=1de484ec  t0=15.1s
+  1.5: 4.64s  prefill=3073  gen=14  [Yield to the lead vehicle since it is stopped ahead]
+  → written to CSV (26 rows so far)
+
+[27/105] clip=1de484ec  t0=16.1s
+  1.5: 4.67s  prefill=3073  gen=14  [Yield to cross traffic at an unsignalized intersection]
+  → written to CSV (27 rows so far)
+
+[28/105] clip=1de484ec  t0=17.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Yield due to the lead vehicle stopped ahead blocking our pat]
+  → written to CSV (28 rows so far)
+
+[29/105] clip=1de484ec  t0=18.1s
+  1.5: 4.65s  prefill=3073  gen=14  []
+  → written to CSV (29 rows so far)
+
+[30/105] clip=1de484ec  t0=19.1s
+  1.5: 5.02s  prefill=3073  gen=17  [Adjust speed and keep safe distance due to the lead vehicle ]
+  → written to CSV (30 rows so far)
+
+[31/105] clip=13f0af4c  t0=5.1s
+  1.5: 4.19s  prefill=3073  gen=10  [Keep lane since the lane is clear]
+  → written to CSV (31 rows so far)
+
+[32/105] clip=13f0af4c  t0=6.1s
+  1.5: 5.14s  prefill=3073  gen=18  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (32 rows so far)
+
+[33/105] clip=13f0af4c  t0=7.1s
+  1.5: 4.54s  prefill=3073  gen=13  [Yield due to the pedestrian in the crosswalk]
+  → written to CSV (33 rows so far)
+
+[34/105] clip=13f0af4c  t0=8.1s
+  1.5: 7.84s  prefill=3073  gen=41  [Change to the right lane and enter the side street due to cr]
+  → written to CSV (34 rows so far)
+
+[35/105] clip=13f0af4c  t0=9.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Yield to the pedestrian since a person is running across our]
+  → written to CSV (35 rows so far)
+
+[36/105] clip=13f0af4c  t0=10.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (36 rows so far)
+
+[37/105] clip=13f0af4c  t0=11.1s
+  1.5: 4.67s  prefill=3073  gen=14  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (37 rows so far)
+
+[38/105] clip=13f0af4c  t0=12.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Slow down due to a pedestrian walking across the crosswalk a]
+  → written to CSV (38 rows so far)
+
+[39/105] clip=13f0af4c  t0=13.1s
+  1.5: 4.69s  prefill=3073  gen=14  [Yield to the pedestrian walking across the crosswalk ahead]
+  → written to CSV (39 rows so far)
+
+[40/105] clip=13f0af4c  t0=14.1s
+  1.5: 4.81s  prefill=3073  gen=15  [Yield by slowing due to the pedestrian in the crosswalk]
+  → written to CSV (40 rows so far)
+
+[41/105] clip=13f0af4c  t0=15.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Yield due to a pedestrian walking across our lane in the cro]
+  → written to CSV (41 rows so far)
+
+[42/105] clip=13f0af4c  t0=16.1s
+  1.5: 5.37s  prefill=3073  gen=20  [Yield to the pedestrian in the crosswalk since the pedestria]
+  → written to CSV (42 rows so far)
+
+[43/105] clip=13f0af4c  t0=17.1s
+  1.5: 7.96s  prefill=3073  gen=42  [Maintain lane and gently accelerate because a pedestrian is ]
+  → written to CSV (43 rows so far)
+
+[44/105] clip=13f0af4c  t0=18.1s
+  1.5: 5.13s  prefill=3073  gen=18  [Accelerate to proceed through the intersection since the ped]
+  → written to CSV (44 rows so far)
+
+[45/105] clip=13f0af4c  t0=19.1s
+  1.5: 4.90s  prefill=3073  gen=16  [Keep distance to the cyclists since they are directly ahead ]
+  → written to CSV (45 rows so far)
+
+[46/105] clip=868a46b4  t0=5.1s
+  1.5: 4.54s  prefill=3073  gen=13  [Yield due to oncoming cyclists in our lane]
+  → written to CSV (46 rows so far)
+
+[47/105] clip=868a46b4  t0=6.1s
+  1.5: 4.43s  prefill=3073  gen=12  [Yield due to the lead vehicle slowing ahead]
+  → written to CSV (47 rows so far)
+
+[48/105] clip=868a46b4  t0=7.1s
+  1.5: 4.43s  prefill=3073  gen=12  [Yield due to the slow lead vehicle ahead]
+  → written to CSV (48 rows so far)
+
+[49/105] clip=868a46b4  t0=8.1s
+  1.5: 4.44s  prefill=3073  gen=12  [Slow down due to the lead vehicle ahead.]
+  → written to CSV (49 rows so far)
+
+[50/105] clip=868a46b4  t0=9.1s
+  1.5: 4.32s  prefill=3073  gen=11  [Yield to the slow lead vehicle ahead]
+  → written to CSV (50 rows so far)
+
+[51/105] clip=868a46b4  t0=10.1Alpamayo 1.5 ready.
+
+[1/105] clip=40a11a64  t0=5.1s
+  1.5: 4.99s  prefill=3073  gen=11  [Match speed due to the lead vehicle ahead]
+  → written to CSV (1 rows so far)
+
+[2/105] clip=40a11a64  t0=6.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Stop to yield to pedestrians walking across the crosswalk ah]
+  → written to CSV (2 rows so far)
+
+[3/105] clip=40a11a64  t0=7.1s
+  1.5: 10.48s  prefill=3073  gen=64  []
+  → written to CSV (3 rows so far)
+
+[4/105] clip=40a11a64  t0=8.1s
+  1.5: 7.46s  prefill=3073  gen=38  [Stop to yield to the pedestrians crossing into our lane ahea]
+  → written to CSV (4 rows so far)
+
+[5/105] clip=40a11a64  t0=9.1s
+  1.5: 4.41s  prefill=3073  gen=12  [Yield to a pedestrian in the crosswalk]
+  → written to CSV (5 rows so far)
+
+[6/105] clip=40a11a64  t0=10.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Yield by slowing due to pedestrians in the crosswalk]
+  → written to CSV (6 rows so far)
+
+[7/105] clip=40a11a64  t0=11.1s
+  1.5: 4.77s  prefill=3073  gen=15  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (7 rows so far)
+
+[8/105] clip=40a11a64  t0=12.1s
+  1.5: 4.62s  prefill=3073  gen=14  [Stop to yield to the pedestrians in the crosswalk ahead]
+  → written to CSV (8 rows so far)
+
+[9/105] clip=40a11a64  t0=13.1s
+  1.5: 6.28s  prefill=3073  gen=28  [Yield to the pedestrian crossing our lane in front since a p]
+  → written to CSV (9 rows so far)
+
+[10/105] clip=40a11a64  t0=14.1s
+  1.5: 5.00s  prefill=3073  gen=17  [Stop to yield to the pedestrian since they are crossing ahea]
+  → written to CSV (10 rows so far)
+
+[11/105] clip=40a11a64  t0=15.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Yield due to a pedestrian walking across the road ahead]
+  → written to CSV (11 rows so far)
+
+[12/105] clip=40a11a64  t0=16.1s
+  1.5: 5.02s  prefill=3073  gen=17  [Keep distance to the cut-in scooter since it merges into our]
+  → written to CSV (12 rows so far)
+
+[13/105] clip=40a11a64  t0=17.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance from the lead van since it is directly ahead i]
+  → written to CSV (13 rows so far)
+
+[14/105] clip=40a11a64  t0=18.1s
+  1.5: 5.12s  prefill=3073  gen=18  [Nudge left due to the stopped van blocking the right side of]
+  → written to CSV (14 rows so far)
+
+[15/105] clip=40a11a64  t0=19.1s
+  1.5: 4.98s  prefill=3073  gen=17  [Nudge left due to the van blocking the right side of our lan]
+  → written to CSV (15 rows so far)
+
+[16/105] clip=1de484ec  t0=5.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Keep distance to the lead vehicle since it is slowing ahead]
+  → written to CSV (16 rows so far)
+
+[17/105] clip=1de484ec  t0=6.1s
+  1.5: 4.87s  prefill=3073  gen=16  [Slow down to maintain a safe gap behind the stopped lead veh]
+  → written to CSV (17 rows so far)
+
+[18/105] clip=1de484ec  t0=7.1s
+  1.5: 4.76s  prefill=3073  gen=15  [Stop to keep distance to the lead vehicle blocking the lane ]
+  → written to CSV (18 rows so far)
+
+[19/105] clip=1de484ec  t0=8.1s
+  1.5: 5.12s  prefill=3073  gen=18  [Yield to the pedestrian since a person is walking across the]
+  → written to CSV (19 rows so far)
+
+[20/105] clip=1de484ec  t0=9.1s
+  1.5: 4.41s  prefill=3073  gen=12  [Yield to the pedestrian exiting the vehicle ahead]
+  → written to CSV (20 rows so far)
+
+[21/105] clip=1de484ec  t0=10.1s
+  1.5: 4.86s  prefill=3073  gen=16  [Yield due to the person exiting the vehicle ahead blocking t]
+  → written to CSV (21 rows so far)
+
+[22/105] clip=1de484ec  t0=11.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Yield due to the stopped lead vehicle blocking our lane]
+  → written to CSV (22 rows so far)
+
+[23/105] clip=1de484ec  t0=12.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Keep distance to the lead vehicle since it is moving slowly ]
+  → written to CSV (23 rows so far)
+
+[24/105] clip=1de484ec  t0=13.1s
+  1.5: 4.42s  prefill=3073  gen=12  [Yield to the pedestrian entering our lane ahead]
+  → written to CSV (24 rows so far)
+
+[25/105] clip=1de484ec  t0=14.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance to the lead vehicle since it is directly ahead]
+  → written to CSV (25 rows so far)
+
+[26/105] clip=1de484ec  t0=15.1s
+  1.5: 4.64s  prefill=3073  gen=14  [Yield to the lead vehicle since it is stopped ahead]
+  → written to CSV (26 rows so far)
+
+[27/105] clip=1de484ec  t0=16.1s
+  1.5: 4.67s  prefill=3073  gen=14  [Yield to cross traffic at an unsignalized intersection]
+  → written to CSV (27 rows so far)
+
+[28/105] clip=1de484ec  t0=17.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Yield due to the lead vehicle stopped ahead blocking our pat]
+  → written to CSV (28 rows so far)
+
+[29/105] clip=1de484ec  t0=18.1s
+  1.5: 4.65s  prefill=3073  gen=14  []
+  → written to CSV (29 rows so far)
+
+[30/105] clip=1de484ec  t0=19.1s
+  1.5: 5.02s  prefill=3073  gen=17  [Adjust speed and keep safe distance due to the lead vehicle ]
+  → written to CSV (30 rows so far)
+
+[31/105] clip=13f0af4c  t0=5.1s
+  1.5: 4.19s  prefill=3073  gen=10  [Keep lane since the lane is clear]
+  → written to CSV (31 rows so far)
+
+[32/105] clip=13f0af4c  t0=6.1s
+  1.5: 5.14s  prefill=3073  gen=18  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (32 rows so far)
+
+[33/105] clip=13f0af4c  t0=7.1s
+  1.5: 4.54s  prefill=3073  gen=13  [Yield due to the pedestrian in the crosswalk]
+  → written to CSV (33 rows so far)
+
+[34/105] clip=13f0af4c  t0=8.1s
+  1.5: 7.84s  prefill=3073  gen=41  [Change to the right lane and enter the side street due to cr]
+  → written to CSV (34 rows so far)
+
+[35/105] clip=13f0af4c  t0=9.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Yield to the pedestrian since a person is running across our]
+  → written to CSV (35 rows so far)
+
+[36/105] clip=13f0af4c  t0=10.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (36 rows so far)
+
+[37/105] clip=13f0af4c  t0=11.1s
+  1.5: 4.67s  prefill=3073  gen=14  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (37 rows so far)
+
+[38/105] clip=13f0af4c  t0=12.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Slow down due to a pedestrian walking across the crosswalk a]
+  → written to CSV (38 rows so far)
+
+[39/105] clip=13f0af4c  t0=13.1s
+  1.5: 4.69s  prefill=3073  gen=14  [Yield to the pedestrian walking across the crosswalk ahead]
+  → written to CSV (39 rows so far)
+
+[40/105] clip=13f0af4c  t0=14.1s
+  1.5: 4.81s  prefill=3073  gen=15  [Yield by slowing due to the pedestrian in the crosswalk]
+  → written to CSV (40 rows so far)
+
+[41/105] clip=13f0af4c  t0=15.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Yield due to a pedestrian walking across our lane in the cro]
+  → written to CSV (41 rows so far)
+
+[42/105] clip=13f0af4c  t0=16.1s
+  1.5: 5.37s  prefill=3073  gen=20  [Yield to the pedestrian in the crosswalk since the pedestria]
+  → written to CSV (42 rows so far)
+
+[43/105] clip=13f0af4c  t0=17.1s
+  1.5: 7.96s  prefill=3073  gen=42  [Maintain lane and gently accelerate because a pedestrian is ]
+  → written to CSV (43 rows so far)
+
+[44/105] clip=13f0af4c  t0=18.1s
+  1.5: 5.13s  prefill=3073  gen=18  [Accelerate to proceed through the intersection since the ped]
+  → written to CSV (44 rows so far)
+
+[45/105] clip=13f0af4c  t0=19.1s
+  1.5: 4.90s  prefill=3073  gen=16  [Keep distance to the cyclists since they are directly ahead ]
+  → written to CSV (45 rows so far)
+
+[46/105] clip=868a46b4  t0=5.1s
+  1.5: 4.54s  prefill=3073  gen=13  [Yield due to oncoming cyclists in our lane]
+  → written to CSV (46 rows so far)
+
+[47/105] clip=868a46b4  t0=6.1s
+  1.5: 4.43s  prefill=3073  gen=12  [Yield due to the lead vehicle slowing ahead]
+  → written to CSV (47 rows so far)
+
+[48/105] clip=868a46b4  t0=7.1s
+  1.5: 4.43s  prefill=3073  gen=12  [Yield due to the slow lead vehicle ahead]
+  → written to CSV (48 rows so far)
+
+[49/105] clip=868a46b4  t0=8.1s
+  1.5: 4.44s  prefill=3073  gen=12  [Slow down due to the lead vehicle ahead.]
+  → written to CSV (49 rows so far)
+
+[50/105] clip=868a46b4  t0=9.1s
+  1.5: 4.32s  prefill=3073  gen=11  [Yield to the slow lead vehicle ahead]
+  → written to CSV (50 rows so far)
+
+[51/105] clip=868a46b4  t0=10.1ss
+  1.5: 4.41s  prefill=3073  gen=12  [Yield to the slow lead vehicle ahead.]
+  → written to CSV (51 rows so far)
+
+[52/105] clip=868a46b4  t0=11.1s
+  1.5: 4.08s  prefill=3073  gen=9  [Stop due to red traffic light]
+  → written to CSV (52 rows so far)
+
+[53/105] clip=868a46b4  t0=12.1s
+  1.5: 5.41s  prefill=3073  gen=20  [Decelerate to maintain a safe distance to the lead vehicle s]
+  → written to CSV (53 rows so far)
+
+[54/105] clip=868a46b4  t0=13.1s
+  1.5: 4.67s  prefill=3073  gen=14  [drives slowly due to the stopped lead vehicle blocking the l]
+  → written to CSV (54 rows so far)
+
+[55/105] clip=868a46b4  t0=14.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Yield to the pedestrian walking across our lane at the cross]
+  → written to CSV (55 rows so far)
+
+[56/105] clip=868a46b4  t0=15.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Yield by slowing due to a pedestrian walking across the cros]
+  → written to CSV (56 rows so far)
+
+[57/105] clip=868a46b4  t0=16.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance to the lead vehicle since it is directly ahead]
+  → written to CSV (57 rows so far)
+
+[58/105] clip=868a46b4  t0=17.1s
+  1.5: 5.85s  prefill=3073  gen=24  [Yield to the cut-in vehicle since it merges into our lane ah]
+  → written to CSV (58 rows so far)
+
+[59/105] clip=868a46b4  t0=18.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Maintain a slower speed due to the slow lead vehicle ahead]
+  → written to CSV (59 rows so far)
+
+[60/105] clip=868a46b4  t0=19.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Yield due to pedestrians walking across the crosswalk ahead]
+  → written to CSV (60 rows so far)
+
+[61/105] clip=79937d25  t0=5.1s
+  1.5: 5.37s  prefill=3073  gen=20  [Yield to the pedestrian walking across the crosswalk ahead s]
+  → written to CSV (61 rows so far)
+
+[62/105] clip=79937d25  t0=6.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Yield due to a pedestrian walking in the crosswalk ahead]
+  → written to CSV (62 rows so far)
+
+[63/105] clip=79937d25  t0=7.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Yield due to a pedestrian walking across the crosswalk]
+  → written to CSV (63 rows so far)
+
+[64/105] clip=79937d25  t0=8.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Stop to yield to the pedestrian walking across the crosswalk]
+  → written to CSV (64 rows so far)
+
+[65/105] clip=79937d25  t0=9.1s
+  1.5: 4.80s  prefill=3073  gen=15  [Stop to yield to the pedestrian walking across the crosswalk]
+  → written to CSV (65 rows so far)
+
+[66/105] clip=79937d25  t0=10.1s
+  1.5: 5.37s  prefill=3073  gen=20  [Stop to yield to the pedestrian in the crosswalk ahead since]
+  → written to CSV (66 rows so far)
+
+[67/105] clip=79937d25  t0=11.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (67 rows so far)
+
+[68/105] clip=79937d25  t0=12.1s
+  1.5: 4.54s  prefill=3073  gen=13  [Yield due to a pedestrian in the crosswalk]
+  → written to CSV (68 rows so far)
+
+[69/105] clip=79937d25  t0=13.1s
+  1.5: 5.28s  prefill=3073  gen=19  [Yield to the pedestrian in the crosswalk ahead since they ar]
+  → written to CSV (69 rows so far)
+
+[70/105] clip=79937d25  t0=14.1s
+  1.5: 4.42s  prefill=3073  gen=12  [Yield to the pedestrians in the crosswalk]
+  → written to CSV (70 rows so far)
+
+[71/105] clip=79937d25  t0=15.1s
+  1.5: 4.45s  prefill=3073  gen=12  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (71 rows so far)
+
+[72/105] clip=79937d25  t0=16.1s
+  1.5: 4.58s  prefill=3073  gen=13  [Yield due to a pedestrian in the crosswalk]
+  → written to CSV (72 rows so far)
+
+[73/105] clip=79937d25  t0=17.1s
+  1.5: 4.46s  prefill=3073  gen=12  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (73 rows so far)
+
+[74/105] clip=79937d25  t0=18.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Yield to the pedestrian because they are walking across the ]
+  → written to CSV (74 rows so far)
+
+[75/105] clip=79937d25  t0=19.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Stop to yield to the pedestrian walking across the crosswalk]
+  → written to CSV (75 rows so far)
+
+[76/105] clip=5cde5b3e  t0=5.1s
+  1.5: 4.56s  prefill=3073  gen=13  [Brake to a stop because of red traffic light]
+  → written to CSV (76 rows so far)
+
+[77/105] clip=5cde5b3e  t0=6.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Keep distance to the lead motorcycle since it is directly ah]
+  → written to CSV (77 rows so far)
+
+[78/105] clip=5cde5b3e  t0=7.1s
+  1.5: 4.70s  prefill=3073  gen=14  [Resume speed from stop since the straight traffic light turn]
+  → written to CSV (78 rows so far)
+
+[79/105] clip=5cde5b3e  t0=8.1s
+  1.5: 5.89s  prefill=3073  gen=23  [Adapt speed to maintain a safe distance from the lead vehicl]
+  → written to CSV (79 rows so far)
+
+[80/105] clip=5cde5b3e  t0=9.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Keep distance to the lead vehicle since it is directly ahead]
+  → written to CSV (80 rows so far)
+
+[81/105] clip=5cde5b3e  t0=10.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance to the lead motorcycle since it is directly ah]
+  → written to CSV (81 rows so far)
+
+[82/105] clip=5cde5b3e  t0=11.1s
+  1.5: 5.04s  prefill=3073  gen=17  [Keep distance to the lead motorcycle since it is directly ah]
+  → written to CSV (82 rows so far)
+
+[83/105] clip=5cde5b3e  t0=12.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Keep distance to the lead motorcycle since it merges into ou]
+  → written to CSV (83 rows so far)
+
+[84/105] clip=5cde5b3e  t0=13.1s
+  1.5: 4.56s  prefill=3073  gen=13  [Yield due to the scooter ahead in our lane]
+  → written to CSV (84 rows so far)
+
+[85/105] clip=5cde5b3e  t0=14.1s
+  1.5: 4.92s  prefill=3073  gen=16  [Yield due to the car turning across our path at the intersec]
+  → written to CSV (85 rows so far)
+
+[86/105] clip=5cde5b3e  t0=15.1s
+  1.5: 4.30s  prefill=3073  gen=11  [Slow down due to the school zone ahead]
+  → written to CSV (86 rows so far)
+
+[87/105] clip=5cde5b3e  t0=16.1s
+  1.5: 4.21s  prefill=3073  gen=10  [Accelerate due to clear lane ahead]
+  → written to CSV (87 rows so far)
+
+[88/105] clip=5cde5b3e  t0=17.1s
+  1.5: 5.04s  prefill=3073  gen=17  [Yield due to an oncoming motorcycle encroaching into our lan]
+  → written to CSV (88 rows so far)
+
+[89/105] clip=5cde5b3e  t0=18.1s
+  1.5: 4.45s  prefill=3073  gen=12  [Slow down due to the oncoming vehicle ahead]
+  → written to CSV (89 rows so far)
+
+[90/105] clip=5cde5b3e  t0=19.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (90 rows so far)
+
+[91/105] clip=682fed39  t0=5.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Nudge to the left to pass the stopped truck blocking the lan]
+  → written to CSV (91 rows so far)
+
+[92/105] clip=682fed39  t0=6.1s
+  1.5: 5.38s  prefill=3073  gen=20  [Nudge to the left to clear the stopped truck blocking the ri]
+  → written to CSV (92 rows so far)
+
+[93/105] clip=682fed39  t0=7.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Yield due to a person standing in our lane beside a truck ah]
+  → written to CSV (93 rows so far)
+
+[94/105] clip=682fed39  t0=8.1s
+  1.5: 4.58s  prefill=3073  gen=13  [Yield to the placement rider in our lane ahead]
+  → written to CSV (94 rows so far)
+
+[95/105] clip=682fed39  t0=9.1s
+  1.5: 5.64s  prefill=3073  gen=22  [Nudge to the left to create clearance from the stopped truck]
+  → written to CSV (95 rows so far)
+
+[96/105] clip=682fed39  t0=10.1s
+  1.5: 4.70s  prefill=3073  gen=14  [Yield to the pedestrian walking directly into the lane ahead]
+  → written to CSV (96 rows so far)
+
+[97/105] clip=682fed39  t0=11.1s
+  1.5: 4.68s  prefill=3073  gen=14  [Yield due to a pedestrian walking across our lane ahead]
+  → written to CSV (97 rows so far)
+
+[98/105] clip=682fed39  t0=12.1s
+  1.5: 7.74s  prefill=3073  gen=40  [Decelerate and hold our lane because an oncoming van is comi]
+  → written to CSV (98 rows so far)
+
+[99/105] clip=682fed39  t0=13.1s
+  1.5: 4.46s  prefill=3073  gen=12  [Slow down due to the lead vehicle stopped ahead]
+  → written to CSV (99 rows so far)
+
+[100/105] clip=682fed39  t0=14.1s
+  1.5: 4.69s  prefill=3073  gen=14  [Keep distance to the lead vehicle since it is stopped ahead]
+  → written to CSV
+  1.5: 4.41s  prefill=3073  gen=12  [Yield to the slow lead vehicle ahead.]
+  → written to CSV (51 rows so far)
+
+[52/105] clip=868a46b4  t0=11.1s
+  1.5: 4.08s  prefill=3073  gen=9  [Stop due to red traffic light]
+  → written to CSV (52 rows so far)
+
+[53/105] clip=868a46b4  t0=12.1s
+  1.5: 5.41s  prefill=3073  gen=20  [Decelerate to maintain a safe distance to the lead vehicle s]
+  → written to CSV (53 rows so far)
+
+[54/105] clip=868a46b4  t0=13.1s
+  1.5: 4.67s  prefill=3073  gen=14  [drives slowly due to the stopped lead vehicle blocking the l]
+  → written to CSV (54 rows so far)
+
+[55/105] clip=868a46b4  t0=14.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Yield to the pedestrian walking across our lane at the cross]
+  → written to CSV (55 rows so far)
+
+[56/105] clip=868a46b4  t0=15.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Yield by slowing due to a pedestrian walking across the cros]
+  → written to CSV (56 rows so far)
+
+[57/105] clip=868a46b4  t0=16.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance to the lead vehicle since it is directly ahead]
+  → written to CSV (57 rows so far)
+
+[58/105] clip=868a46b4  t0=17.1s
+  1.5: 5.85s  prefill=3073  gen=24  [Yield to the cut-in vehicle since it merges into our lane ah]
+  → written to CSV (58 rows so far)
+
+[59/105] clip=868a46b4  t0=18.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Maintain a slower speed due to the slow lead vehicle ahead]
+  → written to CSV (59 rows so far)
+
+[60/105] clip=868a46b4  t0=19.1s
+  1.5: 4.66s  prefill=3073  gen=14  [Yield due to pedestrians walking across the crosswalk ahead]
+  → written to CSV (60 rows so far)
+
+[61/105] clip=79937d25  t0=5.1s
+  1.5: 5.37s  prefill=3073  gen=20  [Yield to the pedestrian walking across the crosswalk ahead s]
+  → written to CSV (61 rows so far)
+
+[62/105] clip=79937d25  t0=6.1s
+  1.5: 4.78s  prefill=3073  gen=15  [Yield due to a pedestrian walking in the crosswalk ahead]
+  → written to CSV (62 rows so far)
+
+[63/105] clip=79937d25  t0=7.1s
+  1.5: 4.65s  prefill=3073  gen=14  [Yield due to a pedestrian walking across the crosswalk]
+  → written to CSV (63 rows so far)
+
+[64/105] clip=79937d25  t0=8.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Stop to yield to the pedestrian walking across the crosswalk]
+  → written to CSV (64 rows so far)
+
+[65/105] clip=79937d25  t0=9.1s
+  1.5: 4.80s  prefill=3073  gen=15  [Stop to yield to the pedestrian walking across the crosswalk]
+  → written to CSV (65 rows so far)
+
+[66/105] clip=79937d25  t0=10.1s
+  1.5: 5.37s  prefill=3073  gen=20  [Stop to yield to the pedestrian in the crosswalk ahead since]
+  → written to CSV (66 rows so far)
+
+[67/105] clip=79937d25  t0=11.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (67 rows so far)
+
+[68/105] clip=79937d25  t0=12.1s
+  1.5: 4.54s  prefill=3073  gen=13  [Yield due to a pedestrian in the crosswalk]
+  → written to CSV (68 rows so far)
+
+[69/105] clip=79937d25  t0=13.1s
+  1.5: 5.28s  prefill=3073  gen=19  [Yield to the pedestrian in the crosswalk ahead since they ar]
+  → written to CSV (69 rows so far)
+
+[70/105] clip=79937d25  t0=14.1s
+  1.5: 4.42s  prefill=3073  gen=12  [Yield to the pedestrians in the crosswalk]
+  → written to CSV (70 rows so far)
+
+[71/105] clip=79937d25  t0=15.1s
+  1.5: 4.45s  prefill=3073  gen=12  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (71 rows so far)
+
+[72/105] clip=79937d25  t0=16.1s
+  1.5: 4.58s  prefill=3073  gen=13  [Yield due to a pedestrian in the crosswalk]
+  → written to CSV (72 rows so far)
+
+[73/105] clip=79937d25  t0=17.1s
+  1.5: 4.46s  prefill=3073  gen=12  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (73 rows so far)
+
+[74/105] clip=79937d25  t0=18.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Yield to the pedestrian because they are walking across the ]
+  → written to CSV (74 rows so far)
+
+[75/105] clip=79937d25  t0=19.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Stop to yield to the pedestrian walking across the crosswalk]
+  → written to CSV (75 rows so far)
+
+[76/105] clip=5cde5b3e  t0=5.1s
+  1.5: 4.56s  prefill=3073  gen=13  [Brake to a stop because of red traffic light]
+  → written to CSV (76 rows so far)
+
+[77/105] clip=5cde5b3e  t0=6.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Keep distance to the lead motorcycle since it is directly ah]
+  → written to CSV (77 rows so far)
+
+[78/105] clip=5cde5b3e  t0=7.1s
+  1.5: 4.70s  prefill=3073  gen=14  [Resume speed from stop since the straight traffic light turn]
+  → written to CSV (78 rows so far)
+
+[79/105] clip=5cde5b3e  t0=8.1s
+  1.5: 5.89s  prefill=3073  gen=23  [Adapt speed to maintain a safe distance from the lead vehicl]
+  → written to CSV (79 rows so far)
+
+[80/105] clip=5cde5b3e  t0=9.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Keep distance to the lead vehicle since it is directly ahead]
+  → written to CSV (80 rows so far)
+
+[81/105] clip=5cde5b3e  t0=10.1s
+  1.5: 5.01s  prefill=3073  gen=17  [Keep distance to the lead motorcycle since it is directly ah]
+  → written to CSV (81 rows so far)
+
+[82/105] clip=5cde5b3e  t0=11.1s
+  1.5: 5.04s  prefill=3073  gen=17  [Keep distance to the lead motorcycle since it is directly ah]
+  → written to CSV (82 rows so far)
+
+[83/105] clip=5cde5b3e  t0=12.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Keep distance to the lead motorcycle since it merges into ou]
+  → written to CSV (83 rows so far)
+
+[84/105] clip=5cde5b3e  t0=13.1s
+  1.5: 4.56s  prefill=3073  gen=13  [Yield due to the scooter ahead in our lane]
+  → written to CSV (84 rows so far)
+
+[85/105] clip=5cde5b3e  t0=14.1s
+  1.5: 4.92s  prefill=3073  gen=16  [Yield due to the car turning across our path at the intersec]
+  → written to CSV (85 rows so far)
+
+[86/105] clip=5cde5b3e  t0=15.1s
+  1.5: 4.30s  prefill=3073  gen=11  [Slow down due to the school zone ahead]
+  → written to CSV (86 rows so far)
+
+[87/105] clip=5cde5b3e  t0=16.1s
+  1.5: 4.21s  prefill=3073  gen=10  [Accelerate due to clear lane ahead]
+  → written to CSV (87 rows so far)
+
+[88/105] clip=5cde5b3e  t0=17.1s
+  1.5: 5.04s  prefill=3073  gen=17  [Yield due to an oncoming motorcycle encroaching into our lan]
+  → written to CSV (88 rows so far)
+
+[89/105] clip=5cde5b3e  t0=18.1s
+  1.5: 4.45s  prefill=3073  gen=12  [Slow down due to the oncoming vehicle ahead]
+  → written to CSV (89 rows so far)
+
+[90/105] clip=5cde5b3e  t0=19.1s
+  1.5: 4.79s  prefill=3073  gen=15  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (90 rows so far)
+
+[91/105] clip=682fed39  t0=5.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Nudge to the left to pass the stopped truck blocking the lan]
+  → written to CSV (91 rows so far)
+
+[92/105] clip=682fed39  t0=6.1s
+  1.5: 5.38s  prefill=3073  gen=20  [Nudge to the left to clear the stopped truck blocking the ri]
+  → written to CSV (92 rows so far)
+
+[93/105] clip=682fed39  t0=7.1s
+  1.5: 5.03s  prefill=3073  gen=17  [Yield due to a person standing in our lane beside a truck ah]
+  → written to CSV (93 rows so far)
+
+[94/105] clip=682fed39  t0=8.1s
+  1.5: 4.58s  prefill=3073  gen=13  [Yield to the placement rider in our lane ahead]
+  → written to CSV (94 rows so far)
+
+[95/105] clip=682fed39  t0=9.1s
+  1.5: 5.64s  prefill=3073  gen=22  [Nudge to the left to create clearance from the stopped truck]
+  → written to CSV (95 rows so far)
+
+[96/105] clip=682fed39  t0=10.1s
+  1.5: 4.70s  prefill=3073  gen=14  [Yield to the pedestrian walking directly into the lane ahead]
+  → written to CSV (96 rows so far)
+
+[97/105] clip=682fed39  t0=11.1s
+  1.5: 4.68s  prefill=3073  gen=14  [Yield due to a pedestrian walking across our lane ahead]
+  → written to CSV (97 rows so far)
+
+[98/105] clip=682fed39  t0=12.1s
+  1.5: 7.74s  prefill=3073  gen=40  [Decelerate and hold our lane because an oncoming van is comi]
+  → written to CSV (98 rows so far)
+
+[99/105] clip=682fed39  t0=13.1s
+  1.5: 4.46s  prefill=3073  gen=12  [Slow down due to the lead vehicle stopped ahead]
+  → written to CSV (99 rows so far)
+
+[100/105] clip=682fed39  t0=14.1s
+  1.5: 4.69s  prefill=3073  gen=14  [Keep distance to the lead vehicle since it is stopped ahead]
+  → written to CSV (100 rows so far) (100 rows so far)
+
+[101/105] clip=682fed39  t0=15.1s
+  1.5: 4.81s  prefill=3073  gen=15  [Keep distance to the lead vehicle since it is blocking the l]
+  → written to CSV (101 rows so far)
+
+[102/105] clip=682fed39  t0=16.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Stop to keep distance to the stopped van ahead blocking our ]
+  → written to CSV (102 rows so far)
+
+[103/105] clip=682fed39  t0=17.1s
+  1.5: 4.93s  prefill=3073  gen=16  [Nudge to the right to create clearance for the oncoming truc]
+  → written to CSV (103 rows so far)
+
+[104/105] clip=682fed39  t0=18.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Stop to keep distance to the lead vehicle since it is statio]
+  → written to CSV (104 rows so far)
+
+[105/105] clip=682fed39  t0=19.1s
+  1.5: 4.80s  prefill=3073  gen=15  [Stop to keep distance to the stopped lead vehicle blocking o]
+  → written to CSV (105 rows so far)
+
+Done. 105 rows → /home/aymen/Documents/alpamayo-autoware/logs/compare_1_5_vs_2.csv
+
+=== SUMMARY (all 225 rows in CSV) ===
+                                      1.5    2 Super
+Mean ADE (m)                       19.127     19.124
+Mean FDE (m)                       67.106     67.210
+Mean duration (s)                   3.581      3.772
+Mean prefill tokens              2253.533   1221.333
+Mean generated tokens              11.684        N/A
+
+
+[101/105] clip=682fed39  t0=15.1s
+  1.5: 4.81s  prefill=3073  gen=15  [Keep distance to the lead vehicle since it is blocking the l]
+  → written to CSV (101 rows so far)
+
+[102/105] clip=682fed39  t0=16.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Stop to keep distance to the stopped van ahead blocking our ]
+  → written to CSV (102 rows so far)
+
+[103/105] clip=682fed39  t0=17.1s
+  1.5: 4.93s  prefill=3073  gen=16  [Nudge to the right to create clearance for the oncoming truc]
+  → written to CSV (103 rows so far)
+
+[104/105] clip=682fed39  t0=18.1s
+  1.5: 4.91s  prefill=3073  gen=16  [Stop to keep distance to the lead vehicle since it is statio]
+  → written to CSV (104 rows so far)
+
+[105/105] clip=682fed39  t0=19.1s
+  1.5: 4.80s  prefill=3073  gen=15  [Stop to keep distance to the stopped lead vehicle blocking o]
+  → written to CSV (105 rows so far)
+
+Done. 105 rows → /home/aymen/Documents/alpamayo-autoware/logs/compare_1_5_vs_2.csv
+
+=== SUMMARY (all 225 rows in CSV) ===
+                                      1.5    2 Super
+Mean ADE (m)                       19.127     19.124
+Mean FDE (m)                       67.106     67.210
+Mean duration (s)                   3.581      3.772
+Mean prefill tokens              2253.533   1221.333
+Mean generated tokens              11.684        N/A
+[sequencer] Step 3 done.
+[sequencer] Step 3 done.
+[sequencer] Step 4: chunk_0270, Alpamayo 2 Super...
+[sequencer] Step 4: chunk_0270, Alpamayo 2 Super...
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Skipping import of cpp extensions due to incompatible torch version. Please upgrade to torch >= 2.11.0 (found 2.10.0+cu130).
+Filtered to chunk_0270: 105 entries
+Total entries to run: 105
+Models: 2 Super
+
+Loading Alpamayo 2 Super (/home/loki/models/Alpamayo2-Super)...
+Filtered to chunk_0270: 105 entries
+Total entries to run: 105
+Models: 2 Super
+
+Loading Alpamayo 2 Super (/home/loki/models/Alpamayo2-Super)...
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:04<01:00,  4.30s/it]Loading checkpoint shards:   7%|▋         | 1/15 [00:04<01:00,  4.30s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:08<00:57,  4.45s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:08<00:57,  4.45s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:13<00:51,  4.33s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:13<00:51,  4.33s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:17<00:46,  4.25s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:17<00:46,  4.25s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:21<00:43,  4.31s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:21<00:43,  4.31s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:26<00:39,  4.40s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:26<00:39,  4.40s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:30<00:35,  4.43s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:30<00:35,  4.43s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:35<00:31,  4.51s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:35<00:31,  4.51s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:40<00:28,  4.69s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:40<00:28,  4.69s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:45<00:24,  4.88s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:45<00:24,  4.88s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:50<00:19,  4.99s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:50<00:19,  4.99s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:56<00:15,  5.06s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:56<00:15,  5.06s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:01<00:10,  5.07s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [01:01<00:10,  5.07s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:06<00:05,  5.22s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [01:06<00:05,  5.22s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:11<00:00,  4.92s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:11<00:00,  4.92s/it]Loading checkpoint shards: 100%|██████████| 15/15 [01:11<00:00,  4.74s/it]
+Loading checkpoint shards: 100%|██████████| 15/15 [01:11<00:00,  4.74s/it]
+Alpamayo 2 ready.
+
+[1/105] clip=40a11a64  t0=5.1s
+  v2: 19.51s  prefill=4580  [Accelerate gently due to the lead vehicle increasing speed]
+  → written to CSV (1 rows so far)
+
+[2/105] clip=40a11a64  t0=6.1s
+  v2: 20.35s  prefill=4580  [Stop to yield to the pedestrians crossing the crosswalk ahea]
+  → written to CSV (2 rows so far)
+
+[3/105] clip=40a11a64  t0=7.1s
+  v2: 18.76s  prefill=4580  [Stop to yield to the pedestrians crossing the crosswalk ahea]
+  → written to CSV (3 rows so far)
+
+[4/105] clip=40a11a64  t0=8.1s
+  v2: 18.03s  prefill=4580  [Stop to yield to the pedestrians crossing the road ahead.]
+  → written to CSV (4 rows so far)
+
+[5/105] clip=40a11a64  t0=9.1s
+  v2: 17.43s  prefill=4580  [Yield due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (5 rows so far)
+
+[6/105] clip=40a11a64  t0=10.1s
+  v2: 16.91s  prefill=4580  [Yield due to pedestrians crossing the crosswalk]
+  → written to CSV (6 rows so far)
+
+[7/105] clip=40a11a64  t0=11.1s
+  v2: 17.46s  prefill=4580  [Yield due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (7 rows so far)
+
+[8/105] clip=40a11a64  t0=12.1s
+  v2: 16.84s  prefill=4580  [Stop to yield to the pedestrians crossing ahead.]
+  → written to CSV (8 rows so far)
+
+[9/105] clip=40a11a64  t0=13.1s
+  v2: 18.11s  prefill=4580  [Stop to yield to the pedestrians crossing the road ahead.]
+  → written to CSV (9 rows so far)
+
+[10/105] clip=40a11a64  t0=14.1s
+  v2: 17.00s  prefill=4580  [Stop to yield to the pedestrians crossing ahead.]
+  → written to CSV (10 rows so far)
+
+[11/105] clip=40a11a64  t0=15.1s
+  v2: 17.66s  prefill=4580  [Yield due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (11 rows so far)
+
+[12/105] clip=40a11a64  t0=16.1s
+  v2: 20.89s  prefill=4580  [Keep distance to the lead vehicle because it is directly ahe]
+  → written to CSV (12 rows so far)
+
+[13/105] clip=40a11a64  t0=17.1s
+  v2: 17.19s  prefill=4580  [Nudge left to pass the lead vehicle ahead]
+  → written to CSV (13 rows so far)
+
+[14/105] clip=40a11a64  t0=18.1s
+  v2: 21.41s  prefill=4580  [Keep distance to the lead vehicle because a van ahead is slo]
+  → written to CSV (14 rows so far)
+
+[15/105] clip=40a11a64  t0=19.1s
+  v2: 18.87s  prefill=4580  [Keep distance to the lead vehicle since it is slowing ahead.]
+  → written to CSV (15 rows so far)
+
+[16/105] clip=1de484ec  t0=5.1s
+  v2: 16.03s  prefill=4580  [Slow down due to the lead vehicle stopping ahead.]
+  → written to CSV (16 rows so far)
+
+[17/105] clip=1de484ec  t0=6.1s
+  v2: 17.02s  prefill=4580  [Slow down due to the lead vehicle stopping ahead.]
+  → written to CSV (17 rows so far)
+
+[18/105] clip=1de484ec  t0=7.1s
+  v2: 17.22s  prefill=4580  [Stop to keep distance to the stopped lead vehicle blocking t]
+  → written to CSV (18 rows so far)
+
+[19/105] clip=1de484ec  t0=8.1s
+  v2: 14.67s  prefill=4580  [Stop to yield to the pedestrian crossing ahead.]
+  → written to CSV (19 rows so far)
+
+[20/105] clip=1de484ec  t0=9.1s
+  v2: 14.32s  prefill=4580  [Yield by slowing due to the pedestrian crossing ahead]
+  → written to CSV (20 rows so far)
+
+[21/105] clip=1de484ec  t0=10.1s
+  v2: 13.61s  prefill=4580  [Yield due to a pedestrian exiting the vehicle ahead]
+  → written to CSV (21 rows so far)
+
+[22/105] clip=1de484ec  t0=11.1s
+  v2: 10.57s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (22 rows so far)
+
+[23/105] clip=1de484ec  t0=12.1s
+  v2: 12.89s  prefill=4580  [Keep distance to the lead vehicle because it is moving slowl]
+  → written to CSV (23 rows so far)
+
+[24/105] clip=1de484ec  t0=13.1s
+  v2: 12.05s  prefill=4580  [Yield due to a pedestrian crossing the crosswalk ahead]
+  → written to CSV (24 rows so far)
+
+[25/105] clip=1de484ec  t0=14.1s
+  v2: 11.70s  prefill=4580  [Accelerate due to the lead vehicle moving ahead]
+  → written to CSV (25 rows so far)
+
+[26/105] clip=1de484ec  t0=15.1s
+  v2: 12.74s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (26 rows so far)
+
+[27/105] clip=1de484ec  t0=16.1s
+  v2: 11.43s  prefill=4580  [Yield due to the lead vehicle ahead slowing]
+  → written to CSV (27 rows so far)
+
+[28/105] clip=1de484ec  t0=17.1s
+  v2: 12.18s  prefill=4580  [Yield by slowing due to pedestrians in the crosswalk.]
+  → written to CSV (28 rows so far)
+
+[29/105] clip=1de484ec  t0=18.1s
+  v2: 12.48s  prefill=4580  [Keep distance to the lead vehicle because it is turning righ]
+  → written to CSV (29 rows so far)
+
+[30/105] clip=1de484ec  t0=19.1s
+  v2: 12.47s  prefill=4580  [Keep distance to the lead vehicle because it is turning righ]
+  → written to CSV (30 rows so far)
+
+[31/105] clip=13f0af4c  t0=5.1s
+  v2: 11.92s  prefill=4580  [Yield to the pedestrian crossing the crosswalk ahead.]
+  → written to CSV (31 rows so far)
+
+[32/105] clip=13f0af4c  t0=6.1s
+  v2: 11.52s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (32 rows so far)
+
+[33/105] clip=13f0af4c  t0=7.1s
+  v2: 11.47s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (33 rows so far)
+
+[34/105] clip=13f0af4c  t0=8.1s
+  v2: 11.50s  prefill=4580  [Yield due to the pedestrian crossing the road ahead]
+  → written to CSV (34 rows so far)
+
+[35/105] clip=13f0af4c  t0=9.1s
+  v2: 11.61s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (35 rows so far)
+
+[36/105] clip=13f0af4c  t0=10.1s
+  v2: 12.28s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (36 rows so far)
+
+[37/105] clip=13f0af4c  t0=11.1s
+  v2: 12.11s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (37 rows so far)
+
+[38/105] clip=13f0af4c  t0=12.1s
+  v2: 11.65s  prefill=4580  [Slow down due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (38 rows so far)
+
+[39/105] clip=13f0af4c  t0=13.1s
+  v2: 11.86s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk]
+  → written to CSV (39 rows so far)
+
+[40/105] clip=13f0af4c  t0=14.1s
+  v2: 12.18s  prefill=4580  [Yield by slowing due to a pedestrian in the crosswalk]
+  → written to CSV (40 rows so far)
+
+[41/105] clip=13f0af4c  t0=15.1s
+  v2: 12.77s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (41 rows so far)
+
+[42/105] clip=13f0af4c  t0=16.1s
+  v2: 12.86s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring reduced]
+  → written to CSV (42 rows so far)
+
+[43/105] clip=13f0af4c  t0=17.1s
+  v2: 11.48s  prefill=4580  [Yield due to pedestrians in the crosswalk.]
+  → written to CSV (43 rows so far)
+
+[44/105] clip=13f0af4c  t0=18.1s
+  v2: 12.16s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (44 rows so far)
+
+[45/105] clip=13f0af4c  t0=19.1s
+  v2: 12.14s  prefill=4580  [Nudge left to avoid the traffic island on the right.]
+  → written to CSV (45 rows so far)
+
+[46/105] clip=868a46b4  t0=5.1s
+  v2: 10.95s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (46 rows so far)
+
+[47/105] clip=868a46b4  t0=6.1s
+  v2: 11.65s  prefill=4580  [Slow down due to the lead vehicle reducing speed ahead]
+  → written to CSV (47 rows so far)
+
+[48/105] clip=868a46b4  t0=7.1s
+  v2: 11.62s  prefill=4580  [Slow down due to the lead vehicle reducing speed ahead]
+  → written to CSV (48 rows so far)
+
+[49/105] clip=868a46b4  t0=8.1s
+  v2: 10.94s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (49 rows so far)
+
+[50/105] clip=868a46b4  t0=9.1s
+  v2: 11.30s  prefill=4580  [Slow down due to the lead vehicle ahead.]
+  → written to CSV (50 rows so far)
+
+[51/105] clip=868a46b4  t0=10.1s
+  v2: 10.79s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (51 rows so far)
+
+[52/105] clip=868a46b4  t0=11.1s
+  v2: 10.80s  prefill=4580  [Stop due to the lead vehicle stopping ahead]
+  → written to CSV (52 rows so far)
+
+[53/105] clip=868a46b4  t0=12.1s
+  v2: 11.29s  prefill=4580  [Stop to keep distance to the lead vehicle.]
+  → written to CSV (53 rows so far)
+
+[54Alpamayo 2 ready.
+
+[1/105] clip=40a11a64  t0=5.1s
+  v2: 19.51s  prefill=4580  [Accelerate gently due to the lead vehicle increasing speed]
+  → written to CSV (1 rows so far)
+
+[2/105] clip=40a11a64  t0=6.1s
+  v2: 20.35s  prefill=4580  [Stop to yield to the pedestrians crossing the crosswalk ahea]
+  → written to CSV (2 rows so far)
+
+[3/105] clip=40a11a64  t0=7.1s
+  v2: 18.76s  prefill=4580  [Stop to yield to the pedestrians crossing the crosswalk ahea]
+  → written to CSV (3 rows so far)
+
+[4/105] clip=40a11a64  t0=8.1s
+  v2: 18.03s  prefill=4580  [Stop to yield to the pedestrians crossing the road ahead.]
+  → written to CSV (4 rows so far)
+
+[5/105] clip=40a11a64  t0=9.1s
+  v2: 17.43s  prefill=4580  [Yield due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (5 rows so far)
+
+[6/105] clip=40a11a64  t0=10.1s
+  v2: 16.91s  prefill=4580  [Yield due to pedestrians crossing the crosswalk]
+  → written to CSV (6 rows so far)
+
+[7/105] clip=40a11a64  t0=11.1s
+  v2: 17.46s  prefill=4580  [Yield due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (7 rows so far)
+
+[8/105] clip=40a11a64  t0=12.1s
+  v2: 16.84s  prefill=4580  [Stop to yield to the pedestrians crossing ahead.]
+  → written to CSV (8 rows so far)
+
+[9/105] clip=40a11a64  t0=13.1s
+  v2: 18.11s  prefill=4580  [Stop to yield to the pedestrians crossing the road ahead.]
+  → written to CSV (9 rows so far)
+
+[10/105] clip=40a11a64  t0=14.1s
+  v2: 17.00s  prefill=4580  [Stop to yield to the pedestrians crossing ahead.]
+  → written to CSV (10 rows so far)
+
+[11/105] clip=40a11a64  t0=15.1s
+  v2: 17.66s  prefill=4580  [Yield due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (11 rows so far)
+
+[12/105] clip=40a11a64  t0=16.1s
+  v2: 20.89s  prefill=4580  [Keep distance to the lead vehicle because it is directly ahe]
+  → written to CSV (12 rows so far)
+
+[13/105] clip=40a11a64  t0=17.1s
+  v2: 17.19s  prefill=4580  [Nudge left to pass the lead vehicle ahead]
+  → written to CSV (13 rows so far)
+
+[14/105] clip=40a11a64  t0=18.1s
+  v2: 21.41s  prefill=4580  [Keep distance to the lead vehicle because a van ahead is slo]
+  → written to CSV (14 rows so far)
+
+[15/105] clip=40a11a64  t0=19.1s
+  v2: 18.87s  prefill=4580  [Keep distance to the lead vehicle since it is slowing ahead.]
+  → written to CSV (15 rows so far)
+
+[16/105] clip=1de484ec  t0=5.1s
+  v2: 16.03s  prefill=4580  [Slow down due to the lead vehicle stopping ahead.]
+  → written to CSV (16 rows so far)
+
+[17/105] clip=1de484ec  t0=6.1s
+  v2: 17.02s  prefill=4580  [Slow down due to the lead vehicle stopping ahead.]
+  → written to CSV (17 rows so far)
+
+[18/105] clip=1de484ec  t0=7.1s
+  v2: 17.22s  prefill=4580  [Stop to keep distance to the stopped lead vehicle blocking t]
+  → written to CSV (18 rows so far)
+
+[19/105] clip=1de484ec  t0=8.1s
+  v2: 14.67s  prefill=4580  [Stop to yield to the pedestrian crossing ahead.]
+  → written to CSV (19 rows so far)
+
+[20/105] clip=1de484ec  t0=9.1s
+  v2: 14.32s  prefill=4580  [Yield by slowing due to the pedestrian crossing ahead]
+  → written to CSV (20 rows so far)
+
+[21/105] clip=1de484ec  t0=10.1s
+  v2: 13.61s  prefill=4580  [Yield due to a pedestrian exiting the vehicle ahead]
+  → written to CSV (21 rows so far)
+
+[22/105] clip=1de484ec  t0=11.1s
+  v2: 10.57s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (22 rows so far)
+
+[23/105] clip=1de484ec  t0=12.1s
+  v2: 12.89s  prefill=4580  [Keep distance to the lead vehicle because it is moving slowl]
+  → written to CSV (23 rows so far)
+
+[24/105] clip=1de484ec  t0=13.1s
+  v2: 12.05s  prefill=4580  [Yield due to a pedestrian crossing the crosswalk ahead]
+  → written to CSV (24 rows so far)
+
+[25/105] clip=1de484ec  t0=14.1s
+  v2: 11.70s  prefill=4580  [Accelerate due to the lead vehicle moving ahead]
+  → written to CSV (25 rows so far)
+
+[26/105] clip=1de484ec  t0=15.1s
+  v2: 12.74s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (26 rows so far)
+
+[27/105] clip=1de484ec  t0=16.1s
+  v2: 11.43s  prefill=4580  [Yield due to the lead vehicle ahead slowing]
+  → written to CSV (27 rows so far)
+
+[28/105] clip=1de484ec  t0=17.1s
+  v2: 12.18s  prefill=4580  [Yield by slowing due to pedestrians in the crosswalk.]
+  → written to CSV (28 rows so far)
+
+[29/105] clip=1de484ec  t0=18.1s
+  v2: 12.48s  prefill=4580  [Keep distance to the lead vehicle because it is turning righ]
+  → written to CSV (29 rows so far)
+
+[30/105] clip=1de484ec  t0=19.1s
+  v2: 12.47s  prefill=4580  [Keep distance to the lead vehicle because it is turning righ]
+  → written to CSV (30 rows so far)
+
+[31/105] clip=13f0af4c  t0=5.1s
+  v2: 11.92s  prefill=4580  [Yield to the pedestrian crossing the crosswalk ahead.]
+  → written to CSV (31 rows so far)
+
+[32/105] clip=13f0af4c  t0=6.1s
+  v2: 11.52s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (32 rows so far)
+
+[33/105] clip=13f0af4c  t0=7.1s
+  v2: 11.47s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (33 rows so far)
+
+[34/105] clip=13f0af4c  t0=8.1s
+  v2: 11.50s  prefill=4580  [Yield due to the pedestrian crossing the road ahead]
+  → written to CSV (34 rows so far)
+
+[35/105] clip=13f0af4c  t0=9.1s
+  v2: 11.61s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (35 rows so far)
+
+[36/105] clip=13f0af4c  t0=10.1s
+  v2: 12.28s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (36 rows so far)
+
+[37/105] clip=13f0af4c  t0=11.1s
+  v2: 12.11s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (37 rows so far)
+
+[38/105] clip=13f0af4c  t0=12.1s
+  v2: 11.65s  prefill=4580  [Slow down due to pedestrians crossing the crosswalk ahead]
+  → written to CSV (38 rows so far)
+
+[39/105] clip=13f0af4c  t0=13.1s
+  v2: 11.86s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk]
+  → written to CSV (39 rows so far)
+
+[40/105] clip=13f0af4c  t0=14.1s
+  v2: 12.18s  prefill=4580  [Yield by slowing due to a pedestrian in the crosswalk]
+  → written to CSV (40 rows so far)
+
+[41/105] clip=13f0af4c  t0=15.1s
+  v2: 12.77s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (41 rows so far)
+
+[42/105] clip=13f0af4c  t0=16.1s
+  v2: 12.86s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring reduced]
+  → written to CSV (42 rows so far)
+
+[43/105] clip=13f0af4c  t0=17.1s
+  v2: 11.48s  prefill=4580  [Yield due to pedestrians in the crosswalk.]
+  → written to CSV (43 rows so far)
+
+[44/105] clip=13f0af4c  t0=18.1s
+  v2: 12.16s  prefill=4580  [Keep speed through the intersection since the traffic light ]
+  → written to CSV (44 rows so far)
+
+[45/105] clip=13f0af4c  t0=19.1s
+  v2: 12.14s  prefill=4580  [Nudge left to avoid the traffic island on the right.]
+  → written to CSV (45 rows so far)
+
+[46/105] clip=868a46b4  t0=5.1s
+  v2: 10.95s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (46 rows so far)
+
+[47/105] clip=868a46b4  t0=6.1s
+  v2: 11.65s  prefill=4580  [Slow down due to the lead vehicle reducing speed ahead]
+  → written to CSV (47 rows so far)
+
+[48/105] clip=868a46b4  t0=7.1s
+  v2: 11.62s  prefill=4580  [Slow down due to the lead vehicle reducing speed ahead]
+  → written to CSV (48 rows so far)
+
+[49/105] clip=868a46b4  t0=8.1s
+  v2: 10.94s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (49 rows so far)
+
+[50/105] clip=868a46b4  t0=9.1s
+  v2: 11.30s  prefill=4580  [Slow down due to the lead vehicle ahead.]
+  → written to CSV (50 rows so far)
+
+[51/105] clip=868a46b4  t0=10.1s
+  v2: 10.79s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (51 rows so far)
+
+[52/105] clip=868a46b4  t0=11.1s
+  v2: 10.80s  prefill=4580  [Stop due to the lead vehicle stopping ahead]
+  → written to CSV (52 rows so far)
+
+[53/105] clip=868a46b4  t0=12.1s
+  v2: 11.29s  prefill=4580  [Stop to keep distance to the lead vehicle.]
+  → written to CSV (53 rows so far)
+
+[54/105] clip=868a46b4  t0=13.1s/105] clip=868a46b4  t0=13.1s
+  v2: 13.45s  prefill=4580  [Keep distance to the lead vehicle because it is directly ahe]
+  → written to CSV (54 rows so far)
+
+[55/105] clip=868a46b4  t0=14.1s
+  v2: 11.19s  prefill=4580  [Accelerate due to the lead vehicle moving ahead]
+  → written to CSV (55 rows so far)
+
+[56/105] clip=868a46b4  t0=15.1s
+  v2: 11.62s  prefill=4580  [Yield by slowing due to pedestrians crossing the road ahead]
+  → written to CSV (56 rows so far)
+
+[57/105] clip=868a46b4  t0=16.1s
+  v2: 11.17s  prefill=4580  [Stop to yield to the pedestrian crossing ahead.]
+  → written to CSV (57 rows so far)
+
+[58/105] clip=868a46b4  t0=17.1s
+  v2: 13.46s  prefill=4580  [Yield to the pedestrian crossing ahead because the person is]
+  → written to CSV (58 rows so far)
+
+[59/105] clip=868a46b4  t0=18.1s
+  v2: 10.92s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (59 rows so far)
+
+[60/105] clip=868a46b4  t0=19.1s
+  v2: 12.19s  prefill=4580  [Reduce speed due to the lead vehicle ahead slowing near the ]
+  → written to CSV (60 rows so far)
+
+[61/105] clip=79937d25  t0=5.1s
+  v2: 12.06s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (61 rows so far)
+
+[62/105] clip=79937d25  t0=6.1s
+  v2: 11.78s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk]
+  → written to CSV (62 rows so far)
+
+[63/105] clip=79937d25  t0=7.1s
+  v2: 12.48s  prefill=4580  [Stop to yield to the pedestrian crossing at the crosswalk ah]
+  → written to CSV (63 rows so far)
+
+[64/105] clip=79937d25  t0=8.1s
+  v2: 12.13s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk ahead]
+  → written to CSV (64 rows so far)
+
+[65/105] clip=79937d25  t0=9.1s
+  v2: 12.02s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk ahead]
+  → written to CSV (65 rows so far)
+
+[66/105] clip=79937d25  t0=10.1s
+  v2: 12.62s  prefill=4580  [Yield due to a pedestrian crossing in the crosswalk requirin]
+  → written to CSV (66 rows so far)
+
+[67/105] clip=79937d25  t0=11.1s
+  v2: 12.31s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (67 rows so far)
+
+[68/105] clip=79937d25  t0=12.1s
+  v2: 12.32s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (68 rows so far)
+
+[69/105] clip=79937d25  t0=13.1s
+  v2: 10.94s  prefill=4580  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (69 rows so far)
+
+[70/105] clip=79937d25  t0=14.1s
+  v2: 11.94s  prefill=4580  [Yield due to pedestrians in the crosswalk requiring speed re]
+  → written to CSV (70 rows so far)
+
+[71/105] clip=79937d25  t0=15.1s
+  v2: 11.94s  prefill=4580  [Yield due to pedestrians in the crosswalk requiring speed re]
+  → written to CSV (71 rows so far)
+
+[72/105] clip=79937d25  t0=16.1s
+  v2: 12.02s  prefill=4580  [Yield due to pedestrians in the crosswalk requiring speed re]
+  → written to CSV (72 rows so far)
+
+[73/105] clip=79937d25  t0=17.1s
+  v2: 10.99s  prefill=4580  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (73 rows so far)
+
+[74/105] clip=79937d25  t0=18.1s
+  v2: 11.61s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk.]
+  → written to CSV (74 rows so far)
+
+[75/105] clip=79937d25  t0=19.1s
+  v2: 12.10s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk ahead]
+  → written to CSV (75 rows so far)
+
+[76/105] clip=5cde5b3e  t0=5.1s
+  v2: 10.09s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (76 rows so far)
+
+[77/105] clip=5cde5b3e  t0=6.1s
+  v2: 10.03s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (77 rows so far)
+
+[78/105] clip=5cde5b3e  t0=7.1s
+  v2: 11.77s  prefill=4580  [Resume speed from stop since the traffic light turns green.]
+  → written to CSV (78 rows so far)
+
+[79/105] clip=5cde5b3e  t0=8.1s
+  v2: 10.86s  prefill=4580  [Accelerate due to green traffic light.]
+  → written to CSV (79 rows so far)
+
+[80/105] clip=5cde5b3e  t0=9.1s
+  v2: 13.40s  prefill=4580  [Keep distance to the lead vehicle because it is directly ahe]
+  → written to CSV (80 rows so far)
+
+[81/105] clip=5cde5b3e  t0=10.1s
+  v2: 10.53s  prefill=4580  [Accelerate due to green traffic light]
+  → written to CSV (81 rows so far)
+
+[82/105] clip=5cde5b3e  t0=11.1s
+  v2: 10.77s  prefill=4580  [Accelerate due to green traffic light ahead]
+  → written to CSV (82 rows so far)
+
+[83/105] clip=5cde5b3e  t0=12.1s
+  v2: 11.08s  prefill=4580  [Accelerate gently due to the lead vehicle ahead]
+  → written to CSV (83 rows so far)
+
+[84/105] clip=5cde5b3e  t0=13.1s
+  v2: 12.05s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (84 rows so far)
+
+[85/105] clip=5cde5b3e  t0=14.1s
+  v2: 10.72s  prefill=4580  [Maintain speed due to clear lane ahead]
+  → written to CSV (85 rows so far)
+
+[86/105] clip=5cde5b3e  t0=15.1s
+  v2: 11.32s  prefill=4580  [Maintain speed due to an oncoming vehicle ahead]
+  → written to CSV (86 rows so far)
+
+[87/105] clip=5cde5b3e  t0=16.1s
+  v2: 11.08s  prefill=4580  [Maintain speed due to clear lane ahead.]
+  → written to CSV (87 rows so far)
+
+[88/105] clip=5cde5b3e  t0=17.1s
+  v2: 10.91s  prefill=4580  [Maintain speed due to green traffic light]
+  → written to CSV (88 rows so far)
+
+[89/105] clip=5cde5b3e  t0=18.1s
+  v2: 11.02s  prefill=4580  [Slow down due to an oncoming vehicle ahead]
+  → written to CSV (89 rows so far)
+
+[90/105] clip=5cde5b3e  t0=19.1s
+  v2: 12.52s  prefill=4580  [Maintain speed due to an oncoming vehicle staying in the opp]
+  → written to CSV (90 rows so far)
+
+[91/105] clip=682fed39  t0=5.1s
+  v2: 13.70s  prefill=4580  [Nudge to the left in the same lane to pass the stopped truck]
+  → written to CSV (91 rows so far)
+
+[92/105] clip=682fed39  t0=6.1s
+  v2: 12.77s  prefill=4580  [Nudge to the left to pass the stopped delivery truck blockin]
+  → written to CSV (92 rows so far)
+
+[93/105] clip=682fed39  t0=7.1s
+  v2: 12.63s  prefill=4580  [Yield due to pedestrians standing in the lane next to a park]
+  → written to CSV (93 rows so far)
+
+[94/105] clip=682fed39  t0=8.1s
+  v2: 11.44s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (94 rows so far)
+
+[95/105] clip=682fed39  t0=9.1s
+  v2: 12.63s  prefill=4580  [Nudge to the left to pass the stopped van blocking the lane.]
+  → written to CSV (95 rows so far)
+
+[96/105] clip=682fed39  t0=10.1s
+  v2: 12.74s  prefill=4580  [Nudge left due to the pedestrian stepping into the lane from]
+  → written to CSV (96 rows so far)
+
+[97/105] clip=682fed39  t0=11.1s
+  v2: 11.54s  prefill=4580  [Slow down due to the stopped van blocking the lane]
+  → written to CSV (97 rows so far)
+
+[98/105] clip=682fed39  t0=12.1s
+  v2: 11.22s  prefill=4580  [Slow down due to a stopped vehicle blocking the lane]
+  → written to CSV (98 rows so far)
+
+[99/105] clip=682fed39  t0=13.1s
+  v2: 11.22s  prefill=4580  [Stop due to the stopped van blocking the lane ahead]
+  → written to CSV (99 rows so far)
+
+[100/105] clip=682fed39  t0=14.1s
+  v2: 10.96s  prefill=4580  [Stop to keep distance to the lead vehicle.]
+  → written to CSV (100 rows so far)
+
+[101/105] clip=682fed39  t0=15.1s
+  v2: 11.54s  prefill=4580  [Stop to keep distance to the stopped lead vehicle ahead.]
+  → written to CSV (101 rows so far)
+
+[102/105] clip=682fed39  t0=16.1s
+  v2: 11.10s  prefill=4580  [Stop to keep distance to the lead vehicle.]
+  → written to CSV (102 rows so far)
+
+[103/105] clip=682fed39  t0=17.1s
+  v2: 13.19s  prefill=4580  [Stop to keep distance to the lead vehicle because the lane a]
+  → written to CSV (103 rows so far)
+
+[104/105] clip=682fed39  t0=18.1s
+  v2: 12.05s  prefill=4580  [Keep distance to the lead vehicle because it is stopped ahea]
+  → written to CSV (104 rows so far)
+
+[105/105] clip=682fed39  t0=19.1s
+  v2: 12.70s  prefill=4580  [Stop to keep distance to the lead vehicle because it is stop]
+  → written to CSV (105 rows so far)
+
+Done. 105 rows → /home/aymen/Documents/alpamayo-autoware/logs/compare_1_5_vs_2.csv
+
+=== SUMMARY (all 330 rows in CSV) ===
+                                 
+  v2: 13.45s  prefill=4580  [Keep distance to the lead vehicle because it is directly ahe]
+  → written to CSV (54 rows so far)
+
+[55/105] clip=868a46b4  t0=14.1s
+  v2: 11.19s  prefill=4580  [Accelerate due to the lead vehicle moving ahead]
+  → written to CSV (55 rows so far)
+
+[56/105] clip=868a46b4  t0=15.1s
+  v2: 11.62s  prefill=4580  [Yield by slowing due to pedestrians crossing the road ahead]
+  → written to CSV (56 rows so far)
+
+[57/105] clip=868a46b4  t0=16.1s
+  v2: 11.17s  prefill=4580  [Stop to yield to the pedestrian crossing ahead.]
+  → written to CSV (57 rows so far)
+
+[58/105] clip=868a46b4  t0=17.1s
+  v2: 13.46s  prefill=4580  [Yield to the pedestrian crossing ahead because the person is]
+  → written to CSV (58 rows so far)
+
+[59/105] clip=868a46b4  t0=18.1s
+  v2: 10.92s  prefill=4580  [Slow down due to the lead vehicle ahead]
+  → written to CSV (59 rows so far)
+
+[60/105] clip=868a46b4  t0=19.1s
+  v2: 12.19s  prefill=4580  [Reduce speed due to the lead vehicle ahead slowing near the ]
+  → written to CSV (60 rows so far)
+
+[61/105] clip=79937d25  t0=5.1s
+  v2: 12.06s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (61 rows so far)
+
+[62/105] clip=79937d25  t0=6.1s
+  v2: 11.78s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk]
+  → written to CSV (62 rows so far)
+
+[63/105] clip=79937d25  t0=7.1s
+  v2: 12.48s  prefill=4580  [Stop to yield to the pedestrian crossing at the crosswalk ah]
+  → written to CSV (63 rows so far)
+
+[64/105] clip=79937d25  t0=8.1s
+  v2: 12.13s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk ahead]
+  → written to CSV (64 rows so far)
+
+[65/105] clip=79937d25  t0=9.1s
+  v2: 12.02s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk ahead]
+  → written to CSV (65 rows so far)
+
+[66/105] clip=79937d25  t0=10.1s
+  v2: 12.62s  prefill=4580  [Yield due to a pedestrian crossing in the crosswalk requirin]
+  → written to CSV (66 rows so far)
+
+[67/105] clip=79937d25  t0=11.1s
+  v2: 12.31s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (67 rows so far)
+
+[68/105] clip=79937d25  t0=12.1s
+  v2: 12.32s  prefill=4580  [Yield due to a pedestrian in the crosswalk requiring speed r]
+  → written to CSV (68 rows so far)
+
+[69/105] clip=79937d25  t0=13.1s
+  v2: 10.94s  prefill=4580  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (69 rows so far)
+
+[70/105] clip=79937d25  t0=14.1s
+  v2: 11.94s  prefill=4580  [Yield due to pedestrians in the crosswalk requiring speed re]
+  → written to CSV (70 rows so far)
+
+[71/105] clip=79937d25  t0=15.1s
+  v2: 11.94s  prefill=4580  [Yield due to pedestrians in the crosswalk requiring speed re]
+  → written to CSV (71 rows so far)
+
+[72/105] clip=79937d25  t0=16.1s
+  v2: 12.02s  prefill=4580  [Yield due to pedestrians in the crosswalk requiring speed re]
+  → written to CSV (72 rows so far)
+
+[73/105] clip=79937d25  t0=17.1s
+  v2: 10.99s  prefill=4580  [Yield due to pedestrians in the crosswalk]
+  → written to CSV (73 rows so far)
+
+[74/105] clip=79937d25  t0=18.1s
+  v2: 11.61s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk.]
+  → written to CSV (74 rows so far)
+
+[75/105] clip=79937d25  t0=19.1s
+  v2: 12.10s  prefill=4580  [Stop to yield to the pedestrian crossing the crosswalk ahead]
+  → written to CSV (75 rows so far)
+
+[76/105] clip=5cde5b3e  t0=5.1s
+  v2: 10.09s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (76 rows so far)
+
+[77/105] clip=5cde5b3e  t0=6.1s
+  v2: 10.03s  prefill=4580  [Stop due to red traffic light]
+  → written to CSV (77 rows so far)
+
+[78/105] clip=5cde5b3e  t0=7.1s
+  v2: 11.77s  prefill=4580  [Resume speed from stop since the traffic light turns green.]
+  → written to CSV (78 rows so far)
+
+[79/105] clip=5cde5b3e  t0=8.1s
+  v2: 10.86s  prefill=4580  [Accelerate due to green traffic light.]
+  → written to CSV (79 rows so far)
+
+[80/105] clip=5cde5b3e  t0=9.1s
+  v2: 13.40s  prefill=4580  [Keep distance to the lead vehicle because it is directly ahe]
+  → written to CSV (80 rows so far)
+
+[81/105] clip=5cde5b3e  t0=10.1s
+  v2: 10.53s  prefill=4580  [Accelerate due to green traffic light]
+  → written to CSV (81 rows so far)
+
+[82/105] clip=5cde5b3e  t0=11.1s
+  v2: 10.77s  prefill=4580  [Accelerate due to green traffic light ahead]
+  → written to CSV (82 rows so far)
+
+[83/105] clip=5cde5b3e  t0=12.1s
+  v2: 11.08s  prefill=4580  [Accelerate gently due to the lead vehicle ahead]
+  → written to CSV (83 rows so far)
+
+[84/105] clip=5cde5b3e  t0=13.1s
+  v2: 12.05s  prefill=4580  [Yield due to a pedestrian walking across the crosswalk ahead]
+  → written to CSV (84 rows so far)
+
+[85/105] clip=5cde5b3e  t0=14.1s
+  v2: 10.72s  prefill=4580  [Maintain speed due to clear lane ahead]
+  → written to CSV (85 rows so far)
+
+[86/105] clip=5cde5b3e  t0=15.1s
+  v2: 11.32s  prefill=4580  [Maintain speed due to an oncoming vehicle ahead]
+  → written to CSV (86 rows so far)
+
+[87/105] clip=5cde5b3e  t0=16.1s
+  v2: 11.08s  prefill=4580  [Maintain speed due to clear lane ahead.]
+  → written to CSV (87 rows so far)
+
+[88/105] clip=5cde5b3e  t0=17.1s
+  v2: 10.91s  prefill=4580  [Maintain speed due to green traffic light]
+  → written to CSV (88 rows so far)
+
+[89/105] clip=5cde5b3e  t0=18.1s
+  v2: 11.02s  prefill=4580  [Slow down due to an oncoming vehicle ahead]
+  → written to CSV (89 rows so far)
+
+[90/105] clip=5cde5b3e  t0=19.1s
+  v2: 12.52s  prefill=4580  [Maintain speed due to an oncoming vehicle staying in the opp]
+  → written to CSV (90 rows so far)
+
+[91/105] clip=682fed39  t0=5.1s
+  v2: 13.70s  prefill=4580  [Nudge to the left in the same lane to pass the stopped truck]
+  → written to CSV (91 rows so far)
+
+[92/105] clip=682fed39  t0=6.1s
+  v2: 12.77s  prefill=4580  [Nudge to the left to pass the stopped delivery truck blockin]
+  → written to CSV (92 rows so far)
+
+[93/105] clip=682fed39  t0=7.1s
+  v2: 12.63s  prefill=4580  [Yield due to pedestrians standing in the lane next to a park]
+  → written to CSV (93 rows so far)
+
+[94/105] clip=682fed39  t0=8.1s
+  v2: 11.44s  prefill=4580  [Yield due to a pedestrian crossing the road ahead]
+  → written to CSV (94 rows so far)
+
+[95/105] clip=682fed39  t0=9.1s
+  v2: 12.63s  prefill=4580  [Nudge to the left to pass the stopped van blocking the lane.]
+  → written to CSV (95 rows so far)
+
+[96/105] clip=682fed39  t0=10.1s
+  v2: 12.74s  prefill=4580  [Nudge left due to the pedestrian stepping into the lane from]
+  → written to CSV (96 rows so far)
+
+[97/105] clip=682fed39  t0=11.1s
+  v2: 11.54s  prefill=4580  [Slow down due to the stopped van blocking the lane]
+  → written to CSV (97 rows so far)
+
+[98/105] clip=682fed39  t0=12.1s
+  v2: 11.22s  prefill=4580  [Slow down due to a stopped vehicle blocking the lane]
+  → written to CSV (98 rows so far)
+
+[99/105] clip=682fed39  t0=13.1s
+  v2: 11.22s  prefill=4580  [Stop due to the stopped van blocking the lane ahead]
+  → written to CSV (99 rows so far)
+
+[100/105] clip=682fed39  t0=14.1s
+  v2: 10.96s  prefill=4580  [Stop to keep distance to the lead vehicle.]
+  → written to CSV (100 rows so far)
+
+[101/105] clip=682fed39  t0=15.1s
+  v2: 11.54s  prefill=4580  [Stop to keep distance to the stopped lead vehicle ahead.]
+  → written to CSV (101 rows so far)
+
+[102/105] clip=682fed39  t0=16.1s
+  v2: 11.10s  prefill=4580  [Stop to keep distance to the lead vehicle.]
+  → written to CSV (102 rows so far)
+
+[103/105] clip=682fed39  t0=17.1s
+  v2: 13.19s  prefill=4580  [Stop to keep distance to the lead vehicle because the lane a]
+  → written to CSV (103 rows so far)
+
+[104/105] clip=682fed39  t0=18.1s
+  v2: 12.05s  prefill=4580  [Keep distance to the lead vehicle because it is stopped ahea]
+  → written to CSV (104 rows so far)
+
+[105/105] clip=682fed39  t0=19.1s
+  v2: 12.70s  prefill=4580  [Stop to keep distance to the lead vehicle because it is stop]
+  → written to CSV (105 rows so far)
+
+Done. 105 rows → /home/aymen/Documents/alpamayo-autoware/logs/compare_1_5_vs_2.csv
+
+=== SUMMARY (all 330 rows in CSV) ===
+                                      1.5    2 Super     1.5    2 Super
+Mean ADE (m)                       19.127     19.124
+Mean FDE (m)                       67.106     67.210
+Mean duration (s)                   2.442      6.692
+Mean prefill tokens              1536.500   2290.000
+Mean generated tokens               7.967        N/A
+
+Mean ADE (m)                       19.127     19.124
+Mean FDE (m)                       67.106     67.210
+Mean duration (s)                   2.442      6.692
+Mean prefill tokens              1536.500   2290.000
+Mean generated tokens               7.967        N/A
+[sequencer] Step 4 done. All steps complete.
+[sequencer] Step 4 done. All steps complete.
