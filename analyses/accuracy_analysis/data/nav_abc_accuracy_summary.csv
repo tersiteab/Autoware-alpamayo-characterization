@@ -1,0 +1,4 @@
+condition,nav_text,n_predictions,ade_m_mean,ade_m_std,ade_m_median,fde_m_mean,fde_m_std,fde_m_median
+A_straight,drive straight,29,0.104143,0.225772,0.026986,0.150784,0.231700,0.070882
+B_right,turn right,33,0.106244,0.225941,0.025398,0.160868,0.266649,0.067913
+C_stop,"stop, red light ahead",34,0.081922,0.164578,0.026675,0.139063,0.203964,0.071222
